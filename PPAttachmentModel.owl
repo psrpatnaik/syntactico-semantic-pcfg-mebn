@@ -1,0 +1,1386 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="file:D:/PPAttachmentModel.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="file:D:/PPAttachmentModel.owl">
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Import>http://www.pr-owl.org/pr-owl2.owl</Import>
+    <Declaration>
+        <Class IRI="urn:absolute:PPAttachmentModel#Object"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:absolute:PPAttachmentModel#PrepositionalPhraseObject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:absolute:PPAttachmentModel#Subject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:absolute:PPAttachmentModel#Verb"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="urn:absolute:PPAttachmentModel#hasObject"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="urn:absolute:PPAttachmentModel#hasSubject"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasProbability"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="urn:absolute:PPAttachmentModel#PPObjectModifiesVerbAction"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="urn:absolute:PPAttachmentModel#PPObjectRelatesToObject"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="urn:absolute:PPAttachmentModel#PPObjectRelatesToSubjectAct"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="urn:absolute:PPAttachmentModel#dogObj"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="urn:absolute:PPAttachmentModel#dogSubj"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="urn:absolute:PPAttachmentModel#manObj"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="urn:absolute:PPAttachmentModel#manSubj"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="urn:absolute:PPAttachmentModel#saw"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="urn:absolute:PPAttachmentModel#telescope"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="urn:absolute:PPAttachmentModel#womanObj"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="urn:absolute:PPAttachmentModel#womanSubj"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="urn:absolute:PPAttachmentModel#Subject"/>
+        <NamedIndividual IRI="#DOGSUBJ"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Domain_MFrag.VP_MFrag"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.pr-owl.org/pr-owl2.owl#DomainResidentNode"/>
+        <NamedIndividual IRI="#Domain_Res.PPObjectModifiesVerbAction"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.pr-owl.org/pr-owl2.owl#DomainResidentNode"/>
+        <NamedIndividual IRI="#Domain_Res.PPObjectRelatesToObject"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.pr-owl.org/pr-owl2.owl#DomainResidentNode"/>
+        <NamedIndividual IRI="#Domain_Res.PPObjectRelatesToSubjectAct"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.pr-owl.org/pr-owl2.owl#DomainResidentNode"/>
+        <NamedIndividual IRI="#Domain_Res.hasProbability"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.pr-owl.org/pr-owl2.owl#GenerativeInputNode"/>
+        <NamedIndividual IRI="#IX4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.pr-owl.org/pr-owl2.owl#OrdinaryVariableArgument"/>
+        <NamedIndividual IRI="#IX4_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.pr-owl.org/pr-owl2.owl#OrdinaryVariableArgument"/>
+        <NamedIndividual IRI="#IX4_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.pr-owl.org/pr-owl2.owl#GenerativeInputNode"/>
+        <NamedIndividual IRI="#IX5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.pr-owl.org/pr-owl2.owl#OrdinaryVariableArgument"/>
+        <NamedIndividual IRI="#IX5_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.pr-owl.org/pr-owl2.owl#OrdinaryVariableArgument"/>
+        <NamedIndividual IRI="#IX5_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="urn:absolute:PPAttachmentModel#Object"/>
+        <NamedIndividual IRI="#MANOBJ"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.pr-owl.org/pr-owl2.owl#MExpression"/>
+        <NamedIndividual IRI="#MEXPRESSION_IX4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.pr-owl.org/pr-owl2.owl#MExpression"/>
+        <NamedIndividual IRI="#MEXPRESSION_IX5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.pr-owl.org/pr-owl2.owl#SimpleMExpression"/>
+        <NamedIndividual IRI="#MEXPRESSION_PPObjectModifiesVerbAction"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.pr-owl.org/pr-owl2.owl#SimpleMExpression"/>
+        <NamedIndividual IRI="#MEXPRESSION_PPObjectRelatesToObject"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.pr-owl.org/pr-owl2.owl#SimpleMExpression"/>
+        <NamedIndividual IRI="#MEXPRESSION_PPObjectRelatesToSubjectAct"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.pr-owl.org/pr-owl2.owl#SimpleMExpression"/>
+        <NamedIndividual IRI="#MEXPRESSION_hasProbability"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.pr-owl.org/pr-owl2.owl#MTheory"/>
+        <NamedIndividual IRI="#PPAttachmentModel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.pr-owl.org/pr-owl2.owl#OrdinaryVariableArgument"/>
+        <NamedIndividual IRI="#PPObjectModifiesVerbAction_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.pr-owl.org/pr-owl2.owl#OrdinaryVariableArgument"/>
+        <NamedIndividual IRI="#PPObjectModifiesVerbAction_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.pr-owl.org/pr-owl2.owl#OrdinaryVariableArgument"/>
+        <NamedIndividual IRI="#PPObjectRelatesToObject_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.pr-owl.org/pr-owl2.owl#OrdinaryVariableArgument"/>
+        <NamedIndividual IRI="#PPObjectRelatesToObject_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.pr-owl.org/pr-owl2.owl#OrdinaryVariableArgument"/>
+        <NamedIndividual IRI="#PPObjectRelatesToSubjectAct_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.pr-owl.org/pr-owl2.owl#OrdinaryVariableArgument"/>
+        <NamedIndividual IRI="#PPObjectRelatesToSubjectAct_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.pr-owl.org/pr-owl2.owl#BooleanRandomVariable"/>
+        <NamedIndividual IRI="#RV_PPObjectModifiesVerbAction"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.pr-owl.org/pr-owl2.owl#RandomVariable"/>
+        <NamedIndividual IRI="#RV_PPObjectModifiesVerbAction"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.pr-owl.org/pr-owl2.owl#MappingArgument"/>
+        <NamedIndividual IRI="#RV_PPObjectModifiesVerbAction_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.pr-owl.org/pr-owl2.owl#MappingArgument"/>
+        <NamedIndividual IRI="#RV_PPObjectModifiesVerbAction_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.pr-owl.org/pr-owl2.owl#BooleanRandomVariable"/>
+        <NamedIndividual IRI="#RV_PPObjectRelatesToObject"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.pr-owl.org/pr-owl2.owl#RandomVariable"/>
+        <NamedIndividual IRI="#RV_PPObjectRelatesToObject"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.pr-owl.org/pr-owl2.owl#MappingArgument"/>
+        <NamedIndividual IRI="#RV_PPObjectRelatesToObject_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.pr-owl.org/pr-owl2.owl#MappingArgument"/>
+        <NamedIndividual IRI="#RV_PPObjectRelatesToObject_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.pr-owl.org/pr-owl2.owl#BooleanRandomVariable"/>
+        <NamedIndividual IRI="#RV_PPObjectRelatesToSubjectAct"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.pr-owl.org/pr-owl2.owl#RandomVariable"/>
+        <NamedIndividual IRI="#RV_PPObjectRelatesToSubjectAct"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.pr-owl.org/pr-owl2.owl#MappingArgument"/>
+        <NamedIndividual IRI="#RV_PPObjectRelatesToSubjectAct_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.pr-owl.org/pr-owl2.owl#MappingArgument"/>
+        <NamedIndividual IRI="#RV_PPObjectRelatesToSubjectAct_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.pr-owl.org/pr-owl2.owl#BooleanRandomVariable"/>
+        <NamedIndividual IRI="#RV_hasProbability"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.pr-owl.org/pr-owl2.owl#RandomVariable"/>
+        <NamedIndividual IRI="#RV_hasProbability"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.pr-owl.org/pr-owl2.owl#MappingArgument"/>
+        <NamedIndividual IRI="#RV_hasProbability_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.pr-owl.org/pr-owl2.owl#MappingArgument"/>
+        <NamedIndividual IRI="#RV_hasProbability_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="urn:absolute:PPAttachmentModel#Verb"/>
+        <NamedIndividual IRI="#SAW"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="urn:absolute:PPAttachmentModel#PrepositionalPhraseObject"/>
+        <NamedIndividual IRI="#TELESCOPE"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.pr-owl.org/pr-owl2.owl#OrdinaryVariable"/>
+        <NamedIndividual IRI="#VPMFrag_PPAttachment.obj"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.pr-owl.org/pr-owl2.owl#OrdinaryVariable"/>
+        <NamedIndividual IRI="#VPMFrag_PPAttachment.ppobj"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.pr-owl.org/pr-owl2.owl#OrdinaryVariable"/>
+        <NamedIndividual IRI="#VPMFrag_PPAttachment.v"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.pr-owl.org/pr-owl2.owl#OrdinaryVariable"/>
+        <NamedIndividual IRI="#VPMFrag_PPObjObject.obj"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.pr-owl.org/pr-owl2.owl#OrdinaryVariable"/>
+        <NamedIndividual IRI="#VPMFrag_PPObjObject.ppobj"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.pr-owl.org/pr-owl2.owl#OrdinaryVariable"/>
+        <NamedIndividual IRI="#VPMFrag_PPObjSubject.ppobj"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.pr-owl.org/pr-owl2.owl#OrdinaryVariable"/>
+        <NamedIndividual IRI="#VPMFrag_PPObjSubject.subj"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.pr-owl.org/pr-owl2.owl#OrdinaryVariable"/>
+        <NamedIndividual IRI="#VPMFrag_PPObjSubject.v"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.pr-owl.org/pr-owl2.owl#OrdinaryVariableArgument"/>
+        <NamedIndividual IRI="#hasProbability_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.pr-owl.org/pr-owl2.owl#OrdinaryVariableArgument"/>
+        <NamedIndividual IRI="#hasProbability_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.pr-owl.org/pr-owl2.owl#DeclarativeDistribution"/>
+        <NamedIndividual IRI="http://www.pr-owl.org/pr-owl2.owl#PPObjectModifiesVerbAction_Table"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.pr-owl.org/pr-owl2.owl#DeclarativeDistribution"/>
+        <NamedIndividual IRI="http://www.pr-owl.org/pr-owl2.owl#PPObjectRelatesToObject_Table"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.pr-owl.org/pr-owl2.owl#DeclarativeDistribution"/>
+        <NamedIndividual IRI="http://www.pr-owl.org/pr-owl2.owl#PPObjectRelatesToSubjectAct_Table"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.pr-owl.org/pr-owl2.owl#DeclarativeDistribution"/>
+        <NamedIndividual IRI="http://www.pr-owl.org/pr-owl2.owl#hasProbability_Table"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="urn:absolute:PPAttachmentModel#Object"/>
+        <NamedIndividual IRI="urn:absolute:PPAttachmentModel#dogObj"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="urn:absolute:PPAttachmentModel#Subject"/>
+        <NamedIndividual IRI="urn:absolute:PPAttachmentModel#dogSubj"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="urn:absolute:PPAttachmentModel#Object"/>
+        <NamedIndividual IRI="urn:absolute:PPAttachmentModel#manObj"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="urn:absolute:PPAttachmentModel#Subject"/>
+        <NamedIndividual IRI="urn:absolute:PPAttachmentModel#manSubj"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="urn:absolute:PPAttachmentModel#Verb"/>
+        <NamedIndividual IRI="urn:absolute:PPAttachmentModel#saw"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="urn:absolute:PPAttachmentModel#PrepositionalPhraseObject"/>
+        <NamedIndividual IRI="urn:absolute:PPAttachmentModel#telescope"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="urn:absolute:PPAttachmentModel#Object"/>
+        <NamedIndividual IRI="urn:absolute:PPAttachmentModel#womanObj"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="urn:absolute:PPAttachmentModel#Subject"/>
+        <NamedIndividual IRI="urn:absolute:PPAttachmentModel#womanSubj"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.pr-owl.org/pr-owl2.owl#hasInputNode"/>
+        <NamedIndividual IRI="#Domain_MFrag.VPMFrag_PPAttachment"/>
+        <NamedIndividual IRI="#IX5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.pr-owl.org/pr-owl2.owl#hasInputNode"/>
+        <NamedIndividual IRI="#Domain_MFrag.VPMFrag_PPAttachment"/>
+        <NamedIndividual IRI="#IX4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.pr-owl.org/pr-owl2.owl#hasOrdinaryVariable"/>
+        <NamedIndividual IRI="#Domain_MFrag.VPMFrag_PPAttachment"/>
+        <NamedIndividual IRI="#VPMFrag_PPAttachment.obj"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.pr-owl.org/pr-owl2.owl#hasOrdinaryVariable"/>
+        <NamedIndividual IRI="#Domain_MFrag.VPMFrag_PPAttachment"/>
+        <NamedIndividual IRI="#VPMFrag_PPAttachment.ppobj"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.pr-owl.org/pr-owl2.owl#hasOrdinaryVariable"/>
+        <NamedIndividual IRI="#Domain_MFrag.VPMFrag_PPAttachment"/>
+        <NamedIndividual IRI="#VPMFrag_PPAttachment.v"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.pr-owl.org/pr-owl2.owl#hasResidentNode"/>
+        <NamedIndividual IRI="#Domain_MFrag.VPMFrag_PPAttachment"/>
+        <NamedIndividual IRI="#Domain_Res.hasProbability"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.pr-owl.org/pr-owl2.owl#isMFragOf"/>
+        <NamedIndividual IRI="#Domain_MFrag.VPMFrag_PPAttachment"/>
+        <NamedIndividual IRI="#PPAttachmentModel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.pr-owl.org/pr-owl2.owl#hasOrdinaryVariable"/>
+        <NamedIndividual IRI="#Domain_MFrag.VPMFrag_PPObjObject"/>
+        <NamedIndividual IRI="#VPMFrag_PPObjObject.ppobj"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.pr-owl.org/pr-owl2.owl#hasOrdinaryVariable"/>
+        <NamedIndividual IRI="#Domain_MFrag.VPMFrag_PPObjObject"/>
+        <NamedIndividual IRI="#VPMFrag_PPObjObject.obj"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.pr-owl.org/pr-owl2.owl#hasResidentNode"/>
+        <NamedIndividual IRI="#Domain_MFrag.VPMFrag_PPObjObject"/>
+        <NamedIndividual IRI="#Domain_Res.PPObjectRelatesToObject"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.pr-owl.org/pr-owl2.owl#isMFragOf"/>
+        <NamedIndividual IRI="#Domain_MFrag.VPMFrag_PPObjObject"/>
+        <NamedIndividual IRI="#PPAttachmentModel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.pr-owl.org/pr-owl2.owl#hasOrdinaryVariable"/>
+        <NamedIndividual IRI="#Domain_MFrag.VPMFrag_PPObjSubject"/>
+        <NamedIndividual IRI="#VPMFrag_PPObjSubject.subj"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.pr-owl.org/pr-owl2.owl#hasOrdinaryVariable"/>
+        <NamedIndividual IRI="#Domain_MFrag.VPMFrag_PPObjSubject"/>
+        <NamedIndividual IRI="#VPMFrag_PPObjSubject.v"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.pr-owl.org/pr-owl2.owl#hasOrdinaryVariable"/>
+        <NamedIndividual IRI="#Domain_MFrag.VPMFrag_PPObjSubject"/>
+        <NamedIndividual IRI="#VPMFrag_PPObjSubject.ppobj"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.pr-owl.org/pr-owl2.owl#hasResidentNode"/>
+        <NamedIndividual IRI="#Domain_MFrag.VPMFrag_PPObjSubject"/>
+        <NamedIndividual IRI="#Domain_Res.PPObjectRelatesToSubjectAct"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.pr-owl.org/pr-owl2.owl#hasResidentNode"/>
+        <NamedIndividual IRI="#Domain_MFrag.VPMFrag_PPObjSubject"/>
+        <NamedIndividual IRI="#Domain_Res.PPObjectModifiesVerbAction"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.pr-owl.org/pr-owl2.owl#isMFragOf"/>
+        <NamedIndividual IRI="#Domain_MFrag.VPMFrag_PPObjSubject"/>
+        <NamedIndividual IRI="#PPAttachmentModel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.pr-owl.org/pr-owl2.owl#hasInputInstance"/>
+        <NamedIndividual IRI="#Domain_Res.PPObjectModifiesVerbAction"/>
+        <NamedIndividual IRI="#IX4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.pr-owl.org/pr-owl2.owl#hasMExpression"/>
+        <NamedIndividual IRI="#Domain_Res.PPObjectModifiesVerbAction"/>
+        <NamedIndividual IRI="#MEXPRESSION_PPObjectModifiesVerbAction"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.pr-owl.org/pr-owl2.owl#hasParent"/>
+        <NamedIndividual IRI="#Domain_Res.PPObjectModifiesVerbAction"/>
+        <NamedIndividual IRI="#Domain_Res.PPObjectRelatesToSubjectAct"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.pr-owl.org/pr-owl2.owl#hasProbabilityDistribution"/>
+        <NamedIndividual IRI="#Domain_Res.PPObjectModifiesVerbAction"/>
+        <NamedIndividual IRI="http://www.pr-owl.org/pr-owl2.owl#PPObjectModifiesVerbAction_Table"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.pr-owl.org/pr-owl2.owl#isResidentNodeIn"/>
+        <NamedIndividual IRI="#Domain_Res.PPObjectModifiesVerbAction"/>
+        <NamedIndividual IRI="#Domain_MFrag.VPMFrag_PPObjSubject"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.pr-owl.org/pr-owl2.owl#hasInputInstance"/>
+        <NamedIndividual IRI="#Domain_Res.PPObjectRelatesToObject"/>
+        <NamedIndividual IRI="#IX5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.pr-owl.org/pr-owl2.owl#hasMExpression"/>
+        <NamedIndividual IRI="#Domain_Res.PPObjectRelatesToObject"/>
+        <NamedIndividual IRI="#MEXPRESSION_PPObjectRelatesToObject"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.pr-owl.org/pr-owl2.owl#hasProbabilityDistribution"/>
+        <NamedIndividual IRI="#Domain_Res.PPObjectRelatesToObject"/>
+        <NamedIndividual IRI="http://www.pr-owl.org/pr-owl2.owl#PPObjectRelatesToObject_Table"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.pr-owl.org/pr-owl2.owl#isResidentNodeIn"/>
+        <NamedIndividual IRI="#Domain_Res.PPObjectRelatesToObject"/>
+        <NamedIndividual IRI="#Domain_MFrag.VPMFrag_PPObjObject"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.pr-owl.org/pr-owl2.owl#hasMExpression"/>
+        <NamedIndividual IRI="#Domain_Res.PPObjectRelatesToSubjectAct"/>
+        <NamedIndividual IRI="#MEXPRESSION_PPObjectRelatesToSubjectAct"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.pr-owl.org/pr-owl2.owl#hasProbabilityDistribution"/>
+        <NamedIndividual IRI="#Domain_Res.PPObjectRelatesToSubjectAct"/>
+        <NamedIndividual IRI="http://www.pr-owl.org/pr-owl2.owl#PPObjectRelatesToSubjectAct_Table"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.pr-owl.org/pr-owl2.owl#isResidentNodeIn"/>
+        <NamedIndividual IRI="#Domain_Res.PPObjectRelatesToSubjectAct"/>
+        <NamedIndividual IRI="#Domain_MFrag.VPMFrag_PPObjSubject"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.pr-owl.org/pr-owl2.owl#hasMExpression"/>
+        <NamedIndividual IRI="#Domain_Res.hasProbability"/>
+        <NamedIndividual IRI="#MEXPRESSION_hasProbability"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.pr-owl.org/pr-owl2.owl#hasParent"/>
+        <NamedIndividual IRI="#Domain_Res.hasProbability"/>
+        <NamedIndividual IRI="#IX4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.pr-owl.org/pr-owl2.owl#hasParent"/>
+        <NamedIndividual IRI="#Domain_Res.hasProbability"/>
+        <NamedIndividual IRI="#IX5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.pr-owl.org/pr-owl2.owl#hasProbabilityDistribution"/>
+        <NamedIndividual IRI="#Domain_Res.hasProbability"/>
+        <NamedIndividual IRI="http://www.pr-owl.org/pr-owl2.owl#hasProbability_Table"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.pr-owl.org/pr-owl2.owl#isResidentNodeIn"/>
+        <NamedIndividual IRI="#Domain_Res.hasProbability"/>
+        <NamedIndividual IRI="#Domain_MFrag.VPMFrag_PPAttachment"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.pr-owl.org/pr-owl2.owl#hasMExpression"/>
+        <NamedIndividual IRI="#IX4"/>
+        <NamedIndividual IRI="#MEXPRESSION_IX4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.pr-owl.org/pr-owl2.owl#isInputNodeIn"/>
+        <NamedIndividual IRI="#IX4"/>
+        <NamedIndividual IRI="#Domain_MFrag.VPMFrag_PPAttachment"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.pr-owl.org/pr-owl2.owl#isArgumentOf"/>
+        <NamedIndividual IRI="#IX4_1"/>
+        <NamedIndividual IRI="#MEXPRESSION_IX4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.pr-owl.org/pr-owl2.owl#typeOfArgument"/>
+        <NamedIndividual IRI="#IX4_1"/>
+        <NamedIndividual IRI="#VPMFrag_PPAttachment.ppobj"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.pr-owl.org/pr-owl2.owl#isArgumentOf"/>
+        <NamedIndividual IRI="#IX4_2"/>
+        <NamedIndividual IRI="#MEXPRESSION_IX4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.pr-owl.org/pr-owl2.owl#typeOfArgument"/>
+        <NamedIndividual IRI="#IX4_2"/>
+        <NamedIndividual IRI="#VPMFrag_PPAttachment.v"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.pr-owl.org/pr-owl2.owl#hasMExpression"/>
+        <NamedIndividual IRI="#IX5"/>
+        <NamedIndividual IRI="#MEXPRESSION_IX5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.pr-owl.org/pr-owl2.owl#isInputNodeIn"/>
+        <NamedIndividual IRI="#IX5"/>
+        <NamedIndividual IRI="#Domain_MFrag.VPMFrag_PPAttachment"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.pr-owl.org/pr-owl2.owl#isArgumentOf"/>
+        <NamedIndividual IRI="#IX5_1"/>
+        <NamedIndividual IRI="#MEXPRESSION_IX5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.pr-owl.org/pr-owl2.owl#typeOfArgument"/>
+        <NamedIndividual IRI="#IX5_1"/>
+        <NamedIndividual IRI="#VPMFrag_PPAttachment.obj"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.pr-owl.org/pr-owl2.owl#isArgumentOf"/>
+        <NamedIndividual IRI="#IX5_2"/>
+        <NamedIndividual IRI="#MEXPRESSION_IX5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.pr-owl.org/pr-owl2.owl#typeOfArgument"/>
+        <NamedIndividual IRI="#IX5_2"/>
+        <NamedIndividual IRI="#VPMFrag_PPAttachment.ppobj"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.pr-owl.org/pr-owl2.owl#hasArgument"/>
+        <NamedIndividual IRI="#MEXPRESSION_IX4"/>
+        <NamedIndividual IRI="#IX4_2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.pr-owl.org/pr-owl2.owl#hasArgument"/>
+        <NamedIndividual IRI="#MEXPRESSION_IX4"/>
+        <NamedIndividual IRI="#IX4_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.pr-owl.org/pr-owl2.owl#isMExpressionOf"/>
+        <NamedIndividual IRI="#MEXPRESSION_IX4"/>
+        <NamedIndividual IRI="#IX4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.pr-owl.org/pr-owl2.owl#typeOfMExpression"/>
+        <NamedIndividual IRI="#MEXPRESSION_IX4"/>
+        <NamedIndividual IRI="#RV_PPObjectModifiesVerbAction"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.pr-owl.org/pr-owl2.owl#hasArgument"/>
+        <NamedIndividual IRI="#MEXPRESSION_IX5"/>
+        <NamedIndividual IRI="#IX5_2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.pr-owl.org/pr-owl2.owl#hasArgument"/>
+        <NamedIndividual IRI="#MEXPRESSION_IX5"/>
+        <NamedIndividual IRI="#IX5_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.pr-owl.org/pr-owl2.owl#isMExpressionOf"/>
+        <NamedIndividual IRI="#MEXPRESSION_IX5"/>
+        <NamedIndividual IRI="#IX5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.pr-owl.org/pr-owl2.owl#typeOfMExpression"/>
+        <NamedIndividual IRI="#MEXPRESSION_IX5"/>
+        <NamedIndividual IRI="#RV_PPObjectRelatesToObject"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.pr-owl.org/pr-owl2.owl#hasArgument"/>
+        <NamedIndividual IRI="#MEXPRESSION_PPObjectModifiesVerbAction"/>
+        <NamedIndividual IRI="#PPObjectModifiesVerbAction_2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.pr-owl.org/pr-owl2.owl#hasArgument"/>
+        <NamedIndividual IRI="#MEXPRESSION_PPObjectModifiesVerbAction"/>
+        <NamedIndividual IRI="#PPObjectModifiesVerbAction_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.pr-owl.org/pr-owl2.owl#isMExpressionOf"/>
+        <NamedIndividual IRI="#MEXPRESSION_PPObjectModifiesVerbAction"/>
+        <NamedIndividual IRI="#Domain_Res.PPObjectModifiesVerbAction"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.pr-owl.org/pr-owl2.owl#typeOfMExpression"/>
+        <NamedIndividual IRI="#MEXPRESSION_PPObjectModifiesVerbAction"/>
+        <NamedIndividual IRI="#RV_PPObjectModifiesVerbAction"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.pr-owl.org/pr-owl2.owl#hasArgument"/>
+        <NamedIndividual IRI="#MEXPRESSION_PPObjectRelatesToObject"/>
+        <NamedIndividual IRI="#PPObjectRelatesToObject_2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.pr-owl.org/pr-owl2.owl#hasArgument"/>
+        <NamedIndividual IRI="#MEXPRESSION_PPObjectRelatesToObject"/>
+        <NamedIndividual IRI="#PPObjectRelatesToObject_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.pr-owl.org/pr-owl2.owl#isMExpressionOf"/>
+        <NamedIndividual IRI="#MEXPRESSION_PPObjectRelatesToObject"/>
+        <NamedIndividual IRI="#Domain_Res.PPObjectRelatesToObject"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.pr-owl.org/pr-owl2.owl#typeOfMExpression"/>
+        <NamedIndividual IRI="#MEXPRESSION_PPObjectRelatesToObject"/>
+        <NamedIndividual IRI="#RV_PPObjectRelatesToObject"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.pr-owl.org/pr-owl2.owl#hasArgument"/>
+        <NamedIndividual IRI="#MEXPRESSION_PPObjectRelatesToSubjectAct"/>
+        <NamedIndividual IRI="#PPObjectRelatesToSubjectAct_2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.pr-owl.org/pr-owl2.owl#hasArgument"/>
+        <NamedIndividual IRI="#MEXPRESSION_PPObjectRelatesToSubjectAct"/>
+        <NamedIndividual IRI="#PPObjectRelatesToSubjectAct_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.pr-owl.org/pr-owl2.owl#isMExpressionOf"/>
+        <NamedIndividual IRI="#MEXPRESSION_PPObjectRelatesToSubjectAct"/>
+        <NamedIndividual IRI="#Domain_Res.PPObjectRelatesToSubjectAct"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.pr-owl.org/pr-owl2.owl#typeOfMExpression"/>
+        <NamedIndividual IRI="#MEXPRESSION_PPObjectRelatesToSubjectAct"/>
+        <NamedIndividual IRI="#RV_PPObjectRelatesToSubjectAct"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.pr-owl.org/pr-owl2.owl#hasArgument"/>
+        <NamedIndividual IRI="#MEXPRESSION_hasProbability"/>
+        <NamedIndividual IRI="#hasProbability_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.pr-owl.org/pr-owl2.owl#hasArgument"/>
+        <NamedIndividual IRI="#MEXPRESSION_hasProbability"/>
+        <NamedIndividual IRI="#hasProbability_2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.pr-owl.org/pr-owl2.owl#isMExpressionOf"/>
+        <NamedIndividual IRI="#MEXPRESSION_hasProbability"/>
+        <NamedIndividual IRI="#Domain_Res.hasProbability"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.pr-owl.org/pr-owl2.owl#typeOfMExpression"/>
+        <NamedIndividual IRI="#MEXPRESSION_hasProbability"/>
+        <NamedIndividual IRI="#RV_hasProbability"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.pr-owl.org/pr-owl2.owl#hasMFrag"/>
+        <NamedIndividual IRI="#PPAttachmentModel"/>
+        <NamedIndividual IRI="#Domain_MFrag.VPMFrag_PPObjObject"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.pr-owl.org/pr-owl2.owl#hasMFrag"/>
+        <NamedIndividual IRI="#PPAttachmentModel"/>
+        <NamedIndividual IRI="#Domain_MFrag.VPMFrag_PPObjSubject"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.pr-owl.org/pr-owl2.owl#hasMFrag"/>
+        <NamedIndividual IRI="#PPAttachmentModel"/>
+        <NamedIndividual IRI="#Domain_MFrag.VPMFrag_PPAttachment"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.pr-owl.org/pr-owl2.owl#isArgumentOf"/>
+        <NamedIndividual IRI="#PPObjectModifiesVerbAction_1"/>
+        <NamedIndividual IRI="#MEXPRESSION_PPObjectModifiesVerbAction"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.pr-owl.org/pr-owl2.owl#typeOfArgument"/>
+        <NamedIndividual IRI="#PPObjectModifiesVerbAction_1"/>
+        <NamedIndividual IRI="#VPMFrag_PPObjSubject.ppobj"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.pr-owl.org/pr-owl2.owl#isArgumentOf"/>
+        <NamedIndividual IRI="#PPObjectModifiesVerbAction_2"/>
+        <NamedIndividual IRI="#MEXPRESSION_PPObjectModifiesVerbAction"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.pr-owl.org/pr-owl2.owl#typeOfArgument"/>
+        <NamedIndividual IRI="#PPObjectModifiesVerbAction_2"/>
+        <NamedIndividual IRI="#VPMFrag_PPObjSubject.v"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.pr-owl.org/pr-owl2.owl#isArgumentOf"/>
+        <NamedIndividual IRI="#PPObjectRelatesToObject_1"/>
+        <NamedIndividual IRI="#MEXPRESSION_PPObjectRelatesToObject"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.pr-owl.org/pr-owl2.owl#typeOfArgument"/>
+        <NamedIndividual IRI="#PPObjectRelatesToObject_1"/>
+        <NamedIndividual IRI="#VPMFrag_PPObjObject.obj"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.pr-owl.org/pr-owl2.owl#isArgumentOf"/>
+        <NamedIndividual IRI="#PPObjectRelatesToObject_2"/>
+        <NamedIndividual IRI="#MEXPRESSION_PPObjectRelatesToObject"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.pr-owl.org/pr-owl2.owl#typeOfArgument"/>
+        <NamedIndividual IRI="#PPObjectRelatesToObject_2"/>
+        <NamedIndividual IRI="#VPMFrag_PPObjObject.ppobj"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.pr-owl.org/pr-owl2.owl#isArgumentOf"/>
+        <NamedIndividual IRI="#PPObjectRelatesToSubjectAct_1"/>
+        <NamedIndividual IRI="#MEXPRESSION_PPObjectRelatesToSubjectAct"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.pr-owl.org/pr-owl2.owl#typeOfArgument"/>
+        <NamedIndividual IRI="#PPObjectRelatesToSubjectAct_1"/>
+        <NamedIndividual IRI="#VPMFrag_PPObjSubject.ppobj"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.pr-owl.org/pr-owl2.owl#isArgumentOf"/>
+        <NamedIndividual IRI="#PPObjectRelatesToSubjectAct_2"/>
+        <NamedIndividual IRI="#MEXPRESSION_PPObjectRelatesToSubjectAct"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.pr-owl.org/pr-owl2.owl#typeOfArgument"/>
+        <NamedIndividual IRI="#PPObjectRelatesToSubjectAct_2"/>
+        <NamedIndividual IRI="#VPMFrag_PPObjSubject.subj"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.pr-owl.org/pr-owl2.owl#hasArgument"/>
+        <NamedIndividual IRI="#RV_PPObjectModifiesVerbAction"/>
+        <NamedIndividual IRI="#RV_PPObjectModifiesVerbAction_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.pr-owl.org/pr-owl2.owl#hasArgument"/>
+        <NamedIndividual IRI="#RV_PPObjectModifiesVerbAction"/>
+        <NamedIndividual IRI="#RV_PPObjectModifiesVerbAction_2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.pr-owl.org/pr-owl2.owl#isTypeOfMExpression"/>
+        <NamedIndividual IRI="#RV_PPObjectModifiesVerbAction"/>
+        <NamedIndividual IRI="#MEXPRESSION_PPObjectModifiesVerbAction"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.pr-owl.org/pr-owl2.owl#isTypeOfMExpression"/>
+        <NamedIndividual IRI="#RV_PPObjectModifiesVerbAction"/>
+        <NamedIndividual IRI="#MEXPRESSION_IX4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.pr-owl.org/pr-owl2.owl#isArgumentOf"/>
+        <NamedIndividual IRI="#RV_PPObjectModifiesVerbAction_1"/>
+        <NamedIndividual IRI="#RV_PPObjectModifiesVerbAction"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.pr-owl.org/pr-owl2.owl#isArgumentOf"/>
+        <NamedIndividual IRI="#RV_PPObjectModifiesVerbAction_2"/>
+        <NamedIndividual IRI="#RV_PPObjectModifiesVerbAction"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.pr-owl.org/pr-owl2.owl#hasArgument"/>
+        <NamedIndividual IRI="#RV_PPObjectRelatesToObject"/>
+        <NamedIndividual IRI="#RV_PPObjectRelatesToObject_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.pr-owl.org/pr-owl2.owl#hasArgument"/>
+        <NamedIndividual IRI="#RV_PPObjectRelatesToObject"/>
+        <NamedIndividual IRI="#RV_PPObjectRelatesToObject_2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.pr-owl.org/pr-owl2.owl#isTypeOfMExpression"/>
+        <NamedIndividual IRI="#RV_PPObjectRelatesToObject"/>
+        <NamedIndividual IRI="#MEXPRESSION_PPObjectRelatesToObject"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.pr-owl.org/pr-owl2.owl#isTypeOfMExpression"/>
+        <NamedIndividual IRI="#RV_PPObjectRelatesToObject"/>
+        <NamedIndividual IRI="#MEXPRESSION_IX5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.pr-owl.org/pr-owl2.owl#isArgumentOf"/>
+        <NamedIndividual IRI="#RV_PPObjectRelatesToObject_1"/>
+        <NamedIndividual IRI="#RV_PPObjectRelatesToObject"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.pr-owl.org/pr-owl2.owl#isArgumentOf"/>
+        <NamedIndividual IRI="#RV_PPObjectRelatesToObject_2"/>
+        <NamedIndividual IRI="#RV_PPObjectRelatesToObject"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.pr-owl.org/pr-owl2.owl#hasArgument"/>
+        <NamedIndividual IRI="#RV_PPObjectRelatesToSubjectAct"/>
+        <NamedIndividual IRI="#RV_PPObjectRelatesToSubjectAct_2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.pr-owl.org/pr-owl2.owl#hasArgument"/>
+        <NamedIndividual IRI="#RV_PPObjectRelatesToSubjectAct"/>
+        <NamedIndividual IRI="#RV_PPObjectRelatesToSubjectAct_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.pr-owl.org/pr-owl2.owl#isTypeOfMExpression"/>
+        <NamedIndividual IRI="#RV_PPObjectRelatesToSubjectAct"/>
+        <NamedIndividual IRI="#MEXPRESSION_PPObjectRelatesToSubjectAct"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.pr-owl.org/pr-owl2.owl#isArgumentOf"/>
+        <NamedIndividual IRI="#RV_PPObjectRelatesToSubjectAct_1"/>
+        <NamedIndividual IRI="#RV_PPObjectRelatesToSubjectAct"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.pr-owl.org/pr-owl2.owl#isArgumentOf"/>
+        <NamedIndividual IRI="#RV_PPObjectRelatesToSubjectAct_2"/>
+        <NamedIndividual IRI="#RV_PPObjectRelatesToSubjectAct"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.pr-owl.org/pr-owl2.owl#hasArgument"/>
+        <NamedIndividual IRI="#RV_hasProbability"/>
+        <NamedIndividual IRI="#RV_hasProbability_2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.pr-owl.org/pr-owl2.owl#hasArgument"/>
+        <NamedIndividual IRI="#RV_hasProbability"/>
+        <NamedIndividual IRI="#RV_hasProbability_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.pr-owl.org/pr-owl2.owl#isTypeOfMExpression"/>
+        <NamedIndividual IRI="#RV_hasProbability"/>
+        <NamedIndividual IRI="#MEXPRESSION_hasProbability"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.pr-owl.org/pr-owl2.owl#isArgumentOf"/>
+        <NamedIndividual IRI="#RV_hasProbability_1"/>
+        <NamedIndividual IRI="#RV_hasProbability"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.pr-owl.org/pr-owl2.owl#isArgumentOf"/>
+        <NamedIndividual IRI="#RV_hasProbability_2"/>
+        <NamedIndividual IRI="#RV_hasProbability"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.pr-owl.org/pr-owl2.owl#isTypeOfArgumentIn"/>
+        <NamedIndividual IRI="#VPMFrag_PPAttachment.obj"/>
+        <NamedIndividual IRI="#IX5_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.pr-owl.org/pr-owl2.owl#isTypeOfArgumentIn"/>
+        <NamedIndividual IRI="#VPMFrag_PPAttachment.ppobj"/>
+        <NamedIndividual IRI="#IX5_2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.pr-owl.org/pr-owl2.owl#isTypeOfArgumentIn"/>
+        <NamedIndividual IRI="#VPMFrag_PPAttachment.ppobj"/>
+        <NamedIndividual IRI="#IX4_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.pr-owl.org/pr-owl2.owl#isTypeOfArgumentIn"/>
+        <NamedIndividual IRI="#VPMFrag_PPAttachment.ppobj"/>
+        <NamedIndividual IRI="#hasProbability_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.pr-owl.org/pr-owl2.owl#isTypeOfArgumentIn"/>
+        <NamedIndividual IRI="#VPMFrag_PPAttachment.v"/>
+        <NamedIndividual IRI="#IX4_2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.pr-owl.org/pr-owl2.owl#isTypeOfArgumentIn"/>
+        <NamedIndividual IRI="#VPMFrag_PPAttachment.v"/>
+        <NamedIndividual IRI="#hasProbability_2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.pr-owl.org/pr-owl2.owl#isTypeOfArgumentIn"/>
+        <NamedIndividual IRI="#VPMFrag_PPObjObject.obj"/>
+        <NamedIndividual IRI="#PPObjectRelatesToObject_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.pr-owl.org/pr-owl2.owl#isTypeOfArgumentIn"/>
+        <NamedIndividual IRI="#VPMFrag_PPObjObject.ppobj"/>
+        <NamedIndividual IRI="#PPObjectRelatesToObject_2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.pr-owl.org/pr-owl2.owl#isTypeOfArgumentIn"/>
+        <NamedIndividual IRI="#VPMFrag_PPObjSubject.ppobj"/>
+        <NamedIndividual IRI="#PPObjectModifiesVerbAction_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.pr-owl.org/pr-owl2.owl#isTypeOfArgumentIn"/>
+        <NamedIndividual IRI="#VPMFrag_PPObjSubject.ppobj"/>
+        <NamedIndividual IRI="#PPObjectRelatesToSubjectAct_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.pr-owl.org/pr-owl2.owl#isTypeOfArgumentIn"/>
+        <NamedIndividual IRI="#VPMFrag_PPObjSubject.subj"/>
+        <NamedIndividual IRI="#PPObjectRelatesToSubjectAct_2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.pr-owl.org/pr-owl2.owl#isTypeOfArgumentIn"/>
+        <NamedIndividual IRI="#VPMFrag_PPObjSubject.v"/>
+        <NamedIndividual IRI="#PPObjectModifiesVerbAction_2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.pr-owl.org/pr-owl2.owl#isArgumentOf"/>
+        <NamedIndividual IRI="#hasProbability_1"/>
+        <NamedIndividual IRI="#MEXPRESSION_hasProbability"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.pr-owl.org/pr-owl2.owl#typeOfArgument"/>
+        <NamedIndividual IRI="#hasProbability_1"/>
+        <NamedIndividual IRI="#VPMFrag_PPAttachment.ppobj"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.pr-owl.org/pr-owl2.owl#isArgumentOf"/>
+        <NamedIndividual IRI="#hasProbability_2"/>
+        <NamedIndividual IRI="#MEXPRESSION_hasProbability"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.pr-owl.org/pr-owl2.owl#typeOfArgument"/>
+        <NamedIndividual IRI="#hasProbability_2"/>
+        <NamedIndividual IRI="#VPMFrag_PPAttachment.v"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="urn:absolute:PPAttachmentModel#hasObject"/>
+        <NamedIndividual IRI="urn:absolute:PPAttachmentModel#saw"/>
+        <NamedIndividual IRI="urn:absolute:PPAttachmentModel#womanObj"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="urn:absolute:PPAttachmentModel#hasObject"/>
+        <NamedIndividual IRI="urn:absolute:PPAttachmentModel#saw"/>
+        <NamedIndividual IRI="urn:absolute:PPAttachmentModel#dogObj"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="urn:absolute:PPAttachmentModel#hasObject"/>
+        <NamedIndividual IRI="urn:absolute:PPAttachmentModel#saw"/>
+        <NamedIndividual IRI="urn:absolute:PPAttachmentModel#manObj"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="urn:absolute:PPAttachmentModel#hasSubject"/>
+        <NamedIndividual IRI="urn:absolute:PPAttachmentModel#saw"/>
+        <NamedIndividual IRI="urn:absolute:PPAttachmentModel#womanSubj"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="urn:absolute:PPAttachmentModel#hasSubject"/>
+        <NamedIndividual IRI="urn:absolute:PPAttachmentModel#saw"/>
+        <NamedIndividual IRI="urn:absolute:PPAttachmentModel#manSubj"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="urn:absolute:PPAttachmentModel#hasSubject"/>
+        <NamedIndividual IRI="urn:absolute:PPAttachmentModel#saw"/>
+        <NamedIndividual IRI="urn:absolute:PPAttachmentModel#dogSubj"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.pr-owl.org/pr-owl2.owl#hasUID"/>
+        <NamedIndividual IRI="#DOGSUBJ"/>
+        <Literal datatypeIRI="&xsd;string">!DOGSUBJ</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.pr-owl.org/pr-owl2.owl#hasArgumentNumber"/>
+        <NamedIndividual IRI="#IX4_1"/>
+        <Literal datatypeIRI="&xsd;integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.pr-owl.org/pr-owl2.owl#hasArgumentNumber"/>
+        <NamedIndividual IRI="#IX4_2"/>
+        <Literal datatypeIRI="&xsd;integer">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.pr-owl.org/pr-owl2.owl#hasArgumentNumber"/>
+        <NamedIndividual IRI="#IX5_1"/>
+        <Literal datatypeIRI="&xsd;integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.pr-owl.org/pr-owl2.owl#hasArgumentNumber"/>
+        <NamedIndividual IRI="#IX5_2"/>
+        <Literal datatypeIRI="&xsd;integer">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.pr-owl.org/pr-owl2.owl#hasUID"/>
+        <NamedIndividual IRI="#MANOBJ"/>
+        <Literal datatypeIRI="&xsd;string">!MANOBJ</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.pr-owl.org/pr-owl2.owl#hasArgumentNumber"/>
+        <NamedIndividual IRI="#PPObjectModifiesVerbAction_1"/>
+        <Literal datatypeIRI="&xsd;integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.pr-owl.org/pr-owl2.owl#hasArgumentNumber"/>
+        <NamedIndividual IRI="#PPObjectModifiesVerbAction_2"/>
+        <Literal datatypeIRI="&xsd;integer">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.pr-owl.org/pr-owl2.owl#hasArgumentNumber"/>
+        <NamedIndividual IRI="#PPObjectRelatesToObject_1"/>
+        <Literal datatypeIRI="&xsd;integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.pr-owl.org/pr-owl2.owl#hasArgumentNumber"/>
+        <NamedIndividual IRI="#PPObjectRelatesToObject_2"/>
+        <Literal datatypeIRI="&xsd;integer">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.pr-owl.org/pr-owl2.owl#hasArgumentNumber"/>
+        <NamedIndividual IRI="#PPObjectRelatesToSubjectAct_1"/>
+        <Literal datatypeIRI="&xsd;integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.pr-owl.org/pr-owl2.owl#hasArgumentNumber"/>
+        <NamedIndividual IRI="#PPObjectRelatesToSubjectAct_2"/>
+        <Literal datatypeIRI="&xsd;integer">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.pr-owl.org/pr-owl2.owl#definesUncertaintyOf"/>
+        <NamedIndividual IRI="#RV_PPObjectModifiesVerbAction"/>
+        <Literal datatypeIRI="&xsd;anyURI">urn:absolute:PPAttachmentModel#PPObjectModifiesVerbAction</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.pr-owl.org/pr-owl2.owl#hasArgumentNumber"/>
+        <NamedIndividual IRI="#RV_PPObjectModifiesVerbAction_1"/>
+        <Literal datatypeIRI="&xsd;integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.pr-owl.org/pr-owl2.owl#hasArgumentNumber"/>
+        <NamedIndividual IRI="#RV_PPObjectModifiesVerbAction_2"/>
+        <Literal datatypeIRI="&xsd;integer">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.pr-owl.org/pr-owl2.owl#definesUncertaintyOf"/>
+        <NamedIndividual IRI="#RV_PPObjectRelatesToObject"/>
+        <Literal datatypeIRI="&xsd;anyURI">urn:absolute:PPAttachmentModel#PPObjectRelatesToObject</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.pr-owl.org/pr-owl2.owl#hasArgumentNumber"/>
+        <NamedIndividual IRI="#RV_PPObjectRelatesToObject_1"/>
+        <Literal datatypeIRI="&xsd;integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.pr-owl.org/pr-owl2.owl#hasArgumentNumber"/>
+        <NamedIndividual IRI="#RV_PPObjectRelatesToObject_2"/>
+        <Literal datatypeIRI="&xsd;integer">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.pr-owl.org/pr-owl2.owl#definesUncertaintyOf"/>
+        <NamedIndividual IRI="#RV_PPObjectRelatesToSubjectAct"/>
+        <Literal datatypeIRI="&xsd;anyURI">urn:absolute:PPAttachmentModel#PPObjectRelatesToSubjectAct</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.pr-owl.org/pr-owl2.owl#hasArgumentNumber"/>
+        <NamedIndividual IRI="#RV_PPObjectRelatesToSubjectAct_1"/>
+        <Literal datatypeIRI="&xsd;integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.pr-owl.org/pr-owl2.owl#hasArgumentNumber"/>
+        <NamedIndividual IRI="#RV_PPObjectRelatesToSubjectAct_2"/>
+        <Literal datatypeIRI="&xsd;integer">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.pr-owl.org/pr-owl2.owl#definesUncertaintyOf"/>
+        <NamedIndividual IRI="#RV_hasProbability"/>
+        <Literal datatypeIRI="&xsd;anyURI">file:D:/PPAttachmentModel.owl#hasProbability</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.pr-owl.org/pr-owl2.owl#hasArgumentNumber"/>
+        <NamedIndividual IRI="#RV_hasProbability_1"/>
+        <Literal datatypeIRI="&xsd;integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.pr-owl.org/pr-owl2.owl#hasArgumentNumber"/>
+        <NamedIndividual IRI="#RV_hasProbability_2"/>
+        <Literal datatypeIRI="&xsd;integer">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.pr-owl.org/pr-owl2.owl#hasUID"/>
+        <NamedIndividual IRI="#SAW"/>
+        <Literal datatypeIRI="&xsd;string">!SAW</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.pr-owl.org/pr-owl2.owl#hasUID"/>
+        <NamedIndividual IRI="#TELESCOPE"/>
+        <Literal datatypeIRI="&xsd;string">!TELESCOPE</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.pr-owl.org/pr-owl2.owl#isSubstitutedBy"/>
+        <NamedIndividual IRI="#VPMFrag_PPAttachment.obj"/>
+        <Literal datatypeIRI="&xsd;anyURI">urn:absolute:PPAttachmentModel#Object</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.pr-owl.org/pr-owl2.owl#isSubstitutedBy"/>
+        <NamedIndividual IRI="#VPMFrag_PPAttachment.ppobj"/>
+        <Literal datatypeIRI="&xsd;anyURI">urn:absolute:PPAttachmentModel#PrepositionalPhraseObject</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.pr-owl.org/pr-owl2.owl#isSubstitutedBy"/>
+        <NamedIndividual IRI="#VPMFrag_PPAttachment.v"/>
+        <Literal datatypeIRI="&xsd;anyURI">urn:absolute:PPAttachmentModel#Verb</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.pr-owl.org/pr-owl2.owl#isSubstitutedBy"/>
+        <NamedIndividual IRI="#VPMFrag_PPObjObject.obj"/>
+        <Literal datatypeIRI="&xsd;anyURI">urn:absolute:PPAttachmentModel#Object</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.pr-owl.org/pr-owl2.owl#isSubstitutedBy"/>
+        <NamedIndividual IRI="#VPMFrag_PPObjObject.ppobj"/>
+        <Literal datatypeIRI="&xsd;anyURI">urn:absolute:PPAttachmentModel#PrepositionalPhraseObject</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.pr-owl.org/pr-owl2.owl#isSubstitutedBy"/>
+        <NamedIndividual IRI="#VPMFrag_PPObjSubject.ppobj"/>
+        <Literal datatypeIRI="&xsd;anyURI">urn:absolute:PPAttachmentModel#PrepositionalPhraseObject</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.pr-owl.org/pr-owl2.owl#isSubstitutedBy"/>
+        <NamedIndividual IRI="#VPMFrag_PPObjSubject.subj"/>
+        <Literal datatypeIRI="&xsd;anyURI">urn:absolute:PPAttachmentModel#Subject</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.pr-owl.org/pr-owl2.owl#isSubstitutedBy"/>
+        <NamedIndividual IRI="#VPMFrag_PPObjSubject.v"/>
+        <Literal datatypeIRI="&xsd;anyURI">urn:absolute:PPAttachmentModel#Verb</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.pr-owl.org/pr-owl2.owl#hasArgumentNumber"/>
+        <NamedIndividual IRI="#hasProbability_1"/>
+        <Literal datatypeIRI="&xsd;integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.pr-owl.org/pr-owl2.owl#hasArgumentNumber"/>
+        <NamedIndividual IRI="#hasProbability_2"/>
+        <Literal datatypeIRI="&xsd;integer">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.pr-owl.org/pr-owl2.owl#hasDeclaration"/>
+        <NamedIndividual IRI="http://www.pr-owl.org/pr-owl2.owl#PPObjectModifiesVerbAction_Table"/>
+        <Literal datatypeIRI="&xsd;string">if any ppobj have ( PPObjectRelatesToSubjectAct = true ) [
+true = 0.8,
+false = 0.2,
+absurd = 0.0
+] else [
+true = 0.1,
+false = 0.9,
+absurd = 0.0
+]</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.pr-owl.org/pr-owl2.owl#hasDeclaration"/>
+        <NamedIndividual IRI="http://www.pr-owl.org/pr-owl2.owl#PPObjectRelatesToObject_Table"/>
+        <Literal datatypeIRI="&xsd;string">[
+true = 0.5,
+false = 0.5,
+absurd = 0
+]</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.pr-owl.org/pr-owl2.owl#hasDeclaration"/>
+        <NamedIndividual IRI="http://www.pr-owl.org/pr-owl2.owl#PPObjectRelatesToSubjectAct_Table"/>
+        <Literal datatypeIRI="&xsd;string">[
+true = 0.8,
+false = 0.2,
+absurd = 0
+]</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.pr-owl.org/pr-owl2.owl#hasDeclaration"/>
+        <NamedIndividual IRI="http://www.pr-owl.org/pr-owl2.owl#hasProbability_Table"/>
+        <Literal datatypeIRI="&xsd;string">if any v have ( PPObjectModifiesVerbAction = true ) [
+true = 0.9,
+false = 0.1,
+absurd = 0.0
+] else [
+if any ppobj have ( PPObjectRelatesToObject = true ) [
+true = 0.2,
+false = 0.8,
+absurd = 0.0
+] else [
+true = 0.5,
+false = 0.5,
+absurd = 0.0
+]
+]</Literal>
+    </DataPropertyAssertion>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="urn:absolute:PPAttachmentModel#hasObject"/>
+        <Class IRI="urn:absolute:PPAttachmentModel#Verb"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="urn:absolute:PPAttachmentModel#hasSubject"/>
+        <Class IRI="urn:absolute:PPAttachmentModel#Verb"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="urn:absolute:PPAttachmentModel#hasObject"/>
+        <Class IRI="urn:absolute:PPAttachmentModel#Object"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="urn:absolute:PPAttachmentModel#hasSubject"/>
+        <Class IRI="urn:absolute:PPAttachmentModel#Subject"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasProbability"/>
+        <Class IRI="urn:absolute:PPAttachmentModel#PrepositionalPhraseObject"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasProbability"/>
+        <Class IRI="urn:absolute:PPAttachmentModel#Verb"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="urn:absolute:PPAttachmentModel#PPObjectModifiesVerbAction"/>
+        <Class IRI="urn:absolute:PPAttachmentModel#PrepositionalPhraseObject"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="urn:absolute:PPAttachmentModel#PPObjectModifiesVerbAction"/>
+        <Class IRI="urn:absolute:PPAttachmentModel#Verb"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="urn:absolute:PPAttachmentModel#PPObjectRelatesToObject"/>
+        <Class IRI="urn:absolute:PPAttachmentModel#Object"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="urn:absolute:PPAttachmentModel#PPObjectRelatesToObject"/>
+        <Class IRI="urn:absolute:PPAttachmentModel#PrepositionalPhraseObject"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="urn:absolute:PPAttachmentModel#PPObjectRelatesToSubjectAct"/>
+        <Class IRI="urn:absolute:PPAttachmentModel#PrepositionalPhraseObject"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="urn:absolute:PPAttachmentModel#PPObjectRelatesToSubjectAct"/>
+        <Class IRI="urn:absolute:PPAttachmentModel#Subject"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasProbability"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="urn:absolute:PPAttachmentModel#PPObjectModifiesVerbAction"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="urn:absolute:PPAttachmentModel#PPObjectRelatesToObject"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="urn:absolute:PPAttachmentModel#PPObjectRelatesToSubjectAct"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Domain_MFrag.VPMFrag</IRI>
+        <Literal datatypeIRI="&xsd;string"></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Domain_MFrag.VPMFrag_PPAttachment</IRI>
+        <Literal datatypeIRI="&xsd;string"></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Domain_MFrag.VPMFrag_PPObjObject</IRI>
+        <Literal datatypeIRI="&xsd;string"></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Domain_MFrag.VPMFrag_PPObjSubject</IRI>
+        <Literal datatypeIRI="&xsd;string">PPObjectModifiesVerbAction</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Domain_MFrag.VP_MFrag</IRI>
+        <Literal datatypeIRI="&xsd;string"></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Domain_Res.PPObjectModifiesVerbAction</IRI>
+        <Literal datatypeIRI="&xsd;string">PPObjectModifiesVerbAction</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Domain_Res.PPObjectRelatesToObject</IRI>
+        <Literal datatypeIRI="&xsd;string">PPObjectRelatesToObject</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Domain_Res.PPObjectRelatesToSubjectAct</IRI>
+        <Literal datatypeIRI="&xsd;string">PPObjectRelatesToSubjectAct</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Domain_Res.hasProbability</IRI>
+        <Literal datatypeIRI="&xsd;string">hasProbability</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#IX4</IRI>
+        <Literal datatypeIRI="&xsd;string">IX4</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#IX5</IRI>
+        <Literal datatypeIRI="&xsd;string">IX5</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#PPAttachmentModel</IRI>
+        <Literal datatypeIRI="&xsd;string"></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#VPMFrag_PPAttachment.obj</IRI>
+        <Literal datatypeIRI="&xsd;string">OX3</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#VPMFrag_PPAttachment.ppobj</IRI>
+        <Literal datatypeIRI="&xsd;string">OX2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#VPMFrag_PPAttachment.v</IRI>
+        <Literal datatypeIRI="&xsd;string">hasProbability</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#VPMFrag_PPObjObject.obj</IRI>
+        <Literal datatypeIRI="&xsd;string">PPObjectRelatesToObject</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#VPMFrag_PPObjObject.ppobj</IRI>
+        <Literal datatypeIRI="&xsd;string">OX3</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#VPMFrag_PPObjSubject.ppobj</IRI>
+        <Literal datatypeIRI="&xsd;string">PPObjectRelatesToSubjectAct</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#VPMFrag_PPObjSubject.subj</IRI>
+        <Literal datatypeIRI="&xsd;string">OX2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#VPMFrag_PPObjSubject.v</IRI>
+        <Literal datatypeIRI="&xsd;string">OX3</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version [Not Released]) http://owlapi.sourceforge.net -->
+

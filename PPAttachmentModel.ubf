@@ -1,0 +1,136 @@
+% UBF file header
+Version=2.0
+PrOwl="PPAttachmentModel.owl"
+
+% UBF MTheory declaration
+MTheory=PPAttachmentModel
+NextMFrag=5
+NextResident=6
+NextInput=6
+NextContext=1
+NextEntity=1
+
+% UBF MFrags and Nodes declaration
+
+% MFrag
+MFrag=VPMFrag_PPObjObject
+NextOrdinaryVar=3
+
+% Resident nodes
+
+
+Node=PPObjectRelatesToObject
+Type=DomainResidentNode
+Position=313.0,142.0
+Size=437,60
+Color=-66914
+PossibleValuesOrder=true,false,absurd
+
+% Ordinary Variables
+
+
+Node=ppobj
+Type=OrdinalVar
+Position=552.0,57.0
+Size=301,60
+Color=-5178237
+
+Node=obj
+Type=OrdinalVar
+Position=240.0,53.0
+Size=257,60
+Color=-5178237
+
+% MFrag
+MFrag=VPMFrag_PPObjSubject
+NextOrdinaryVar=4
+
+% Resident nodes
+
+
+Node=PPObjectRelatesToSubjectAct
+Type=DomainResidentNode
+Position=329.0,252.0
+Size=334,60
+Color=-66914
+PossibleValuesOrder=true,false,absurd
+
+Node=PPObjectModifiesVerbAction
+Type=DomainResidentNode
+Position=312.0,353.0
+Size=368,60
+Color=-66914
+PossibleValuesOrder=false,true,absurd
+
+% Ordinary Variables
+
+
+Node=ppobj
+Type=OrdinalVar
+Position=384.0,136.0
+Size=245,60
+Color=-5178237
+
+Node=subj
+Type=OrdinalVar
+Position=163.0,134.0
+Size=202,60
+Color=-5178237
+
+Node=v
+Type=OrdinalVar
+Position=653.0,135.0
+Size=144,60
+Color=-5178237
+
+% MFrag
+MFrag=VPMFrag_PPAttachment
+NextOrdinaryVar=5
+
+% Resident nodes
+
+
+Node=hasProbability
+Type=DomainResidentNode
+Position=267.0,283.0
+Size=234,60
+Color=-66914
+PossibleValuesOrder=true,false,absurd
+
+% Input nodes
+
+
+Node=IX4
+Type=GenerativeInputNode
+Position=429.0,169.0
+Size=245,67
+Color=-2302756
+
+Node=IX5
+Type=GenerativeInputNode
+Position=84.0,173.0
+Size=281,60
+Color=-2302756
+
+% Ordinary Variables
+
+
+Node=ppobj
+Type=OrdinalVar
+Position=461.0,65.0
+Size=168,60
+Color=-5178237
+
+Node=obj
+Type=OrdinalVar
+Position=303.0,68.0
+Size=155,60
+Color=-5178237
+
+Node=v
+Type=OrdinalVar
+Position=129.0,68.0
+Size=165,60
+Color=-5178237
+
+% Object Entity Instances
