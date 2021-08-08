@@ -1,0 +1,1676 @@
+#1 [coleman, reached, base, with, regularity, .]
+ROOT
+  S^ROOT-v
+    @NodeSet--474702572
+      NP^S-B
+        NN^NP
+          coleman
+      @S^ROOT-v| VP^S-VBF-v_ .^S>
+        @S^ROOT-v| VP^S-VBF-v_
+          VP^S-VBF-v
+            @NodeSet-610143252
+              @VP^S-VBF-v| VBD^VP_ NP^VP-B>
+                @VP^S-VBF-v| VBD^VP_
+                  VBD^VP
+                    reached
+                NP^VP-B
+                  NN^NP
+                    base
+              PP^VP
+                @NodeSet-1279440020
+                  @PP^VP| IN^PP_
+                    IN^PP
+                      with
+                  NP^PP-B
+                    NN^NP
+                      regularity
+        .^S
+          .
+  .$$.
+    .$.-7
+ROOT
+  S^ROOT-v
+    @NodeSet--474702572
+      NP^S-B
+        NN^NP
+          coleman
+      @S^ROOT-v| VP^S-VBF-v_ .^S>
+        @S^ROOT-v| VP^S-VBF-v_
+          VP^S-VBF-v
+            @NodeSet-610143252
+              @VP^S-VBF-v| VBD^VP_
+                VBD^VP
+                  reached
+              NP^VP-R
+                @NodeSet-1958853033
+                  @NP^VP-R| NP^NP-B_
+                    NP^NP-B
+                      NN^NP
+                        base
+                  PP^NP
+                    @NodeSet-170115473
+                      @PP^NP| IN^PP-N_
+                        IN^PP-N
+                          with
+                      NP^PP-B
+                        NN^NP
+                          regularity
+        .^S
+          .
+  .$$.
+    .$.-7
+#2 [taft, played, golf, with, passion, .]
+ROOT
+  S^ROOT-v
+    @NodeSet--474702572
+      NP^S-B
+        NN^NP
+          taft
+      @S^ROOT-v| VP^S-VBF-v_ .^S>
+        @S^ROOT-v| VP^S-VBF-v_
+          VP^S-VBF-v
+            @NodeSet-610143252
+              @VP^S-VBF-v| VBD^VP_ NP^VP-B>
+                @VP^S-VBF-v| VBD^VP_
+                  VBD^VP
+                    played
+                NP^VP-B
+                  NN^NP
+                    golf
+              PP^VP
+                @NodeSet-1279440020
+                  @PP^VP| IN^PP_
+                    IN^PP
+                      with
+                  NP^PP-B
+                    NN^NP
+                      passion
+        .^S
+          .
+  .$$.
+    .$.-7
+ROOT
+  S^ROOT-v
+    @NodeSet--474702572
+      NP^S-B
+        NN^NP
+          taft
+      @S^ROOT-v| VP^S-VBF-v_ .^S>
+        @S^ROOT-v| VP^S-VBF-v_
+          VP^S-VBF-v
+            @NodeSet-610143252
+              @VP^S-VBF-v| VBD^VP_
+                VBD^VP
+                  played
+              NP^VP-R
+                @NodeSet-1958853033
+                  @NP^VP-R| NP^NP-B_
+                    NP^NP-B
+                      NN^NP
+                        golf
+                  PP^NP
+                    @NodeSet-170115473
+                      @PP^NP| IN^PP-N_
+                        IN^PP-N
+                          with
+                      NP^PP-B
+                        NN^NP
+                          passion
+        .^S
+          .
+  .$$.
+    .$.-7
+#3 [mayor, began, talks, with, unions, .]
+ROOT
+  S^ROOT-v
+    @NodeSet--474702572
+      NP^S-B
+        NN^NP
+          mayor
+      @S^ROOT-v| VP^S-VBF-v_ .^S>
+        @S^ROOT-v| VP^S-VBF-v_
+          VP^S-VBF-v
+            @NodeSet-610143252
+              @VP^S-VBF-v| VBD^VP_ NP^VP-B>
+                @VP^S-VBF-v| VBD^VP_
+                  VBD^VP
+                    began
+                NP^VP-B
+                  NNS^NP
+                    talks
+              PP^VP
+                @NodeSet-1279440020
+                  @PP^VP| IN^PP_
+                    IN^PP
+                      with
+                  NP^PP-B
+                    NNS^NP
+                      unions
+        .^S
+          .
+  .$$.
+    .$.-7
+ROOT
+  S^ROOT-v
+    @NodeSet--474702572
+      NP^S-B
+        NN^NP
+          mayor
+      @S^ROOT-v| VP^S-VBF-v_ .^S>
+        @S^ROOT-v| VP^S-VBF-v_
+          VP^S-VBF-v
+            @NodeSet-610143252
+              @VP^S-VBF-v| VBD^VP_
+                VBD^VP
+                  began
+              NP^VP-R
+                @NodeSet-1958853033
+                  @NP^VP-R| NP^NP-B_
+                    NP^NP-B
+                      NNS^NP
+                        talks
+                  PP^NP
+                    @NodeSet-170115473
+                      @PP^NP| IN^PP-N_
+                        IN^PP-N
+                          with
+                      NP^PP-B
+                        NNS^NP
+                          unions
+        .^S
+          .
+  .$$.
+    .$.-7
+#4 [mr, rowland, shook, hands, with, voters, .]
+ROOT
+  S^ROOT-v
+    @NodeSet--474702572
+      NP^S-B
+        @NodeSet--344087475
+          NN^NP
+            mr
+          @NP^S-B| NN^NP_
+            NN^NP
+              rowland
+      @S^ROOT-v| VP^S-VBF-v_ .^S>
+        @S^ROOT-v| VP^S-VBF-v_
+          VP^S-VBF-v
+            @NodeSet-610143252
+              @VP^S-VBF-v| VBD^VP_ NP^VP-B>
+                @VP^S-VBF-v| VBD^VP_
+                  VBD^VP
+                    shook
+                NP^VP-B
+                  NNS^NP
+                    hands
+              PP^VP
+                @NodeSet-1279440020
+                  @PP^VP| IN^PP_
+                    IN^PP
+                      with
+                  NP^PP-B
+                    NNS^NP
+                      voters
+        .^S
+          .
+  .$$.
+    .$.-8
+ROOT
+  S^ROOT-v
+    @NodeSet--474702572
+      NP^S-B
+        @NodeSet--344087475
+          NN^NP
+            mr
+          @NP^S-B| NN^NP_
+            NN^NP
+              rowland
+      @S^ROOT-v| VP^S-VBF-v_ .^S>
+        @S^ROOT-v| VP^S-VBF-v_
+          VP^S-VBF-v
+            @NodeSet-610143252
+              @VP^S-VBF-v| VBD^VP_
+                VBD^VP
+                  shook
+              NP^VP-R
+                @NodeSet-1958853033
+                  @NP^VP-R| NP^NP-B_
+                    NP^NP-B
+                      NNS^NP
+                        hands
+                  PP^NP
+                    @NodeSet-170115473
+                      @PP^NP| IN^PP-N_
+                        IN^PP-N
+                          with
+                      NP^PP-B
+                        NNS^NP
+                          voters
+        .^S
+          .
+  .$$.
+    .$.-8
+#5 [james, told, reporters, with, bluntness, .]
+ROOT
+  S^ROOT-v
+    @NodeSet--474702572
+      NP^S-B
+        NNS^NP
+          james
+      @S^ROOT-v| VP^S-VBF-v_ .^S>
+        @S^ROOT-v| VP^S-VBF-v_
+          VP^S-VBF-v
+            @NodeSet-610143252
+              @VP^S-VBF-v| VBD^VP_ NP^VP-B>
+                @VP^S-VBF-v| VBD^VP_
+                  VBD^VP
+                    told
+                NP^VP-B
+                  NNS^NP
+                    reporters
+              PP^VP
+                @NodeSet-1279440020
+                  @PP^VP| IN^PP_
+                    IN^PP
+                      with
+                  NP^PP-B
+                    NNS^NP
+                      bluntness
+        .^S
+          .
+  .$$.
+    .$.-7
+ROOT
+  S^ROOT-v
+    @NodeSet--474702572
+      NP^S-B
+        NNS^NP
+          james
+      @S^ROOT-v| VP^S-VBF-v_ .^S>
+        @S^ROOT-v| VP^S-VBF-v_
+          VP^S-VBF-v
+            @NodeSet-610143252
+              @VP^S-VBF-v| VBD^VP_
+                VBD^VP
+                  told
+              NP^VP-R
+                @NodeSet-1958853033
+                  @NP^VP-R| NP^NP-B_
+                    NP^NP-B
+                      NNS^NP
+                        reporters
+                  PP^NP
+                    @NodeSet-170115473
+                      @PP^NP| IN^PP-N_
+                        IN^PP-N
+                          with
+                      NP^PP-B
+                        NNS^NP
+                          bluntness
+        .^S
+          .
+  .$$.
+    .$.-7
+#6 [mr, rowland, played, golf, with, matthews, .]
+ROOT
+  S^ROOT-v
+    @NodeSet--474702572
+      NP^S-B
+        @NodeSet--344087475
+          NN^NP
+            mr
+          @NP^S-B| NN^NP_
+            NN^NP
+              rowland
+      @S^ROOT-v| VP^S-VBF-v_ .^S>
+        @S^ROOT-v| VP^S-VBF-v_
+          VP^S-VBF-v
+            @NodeSet-610143252
+              @VP^S-VBF-v| VBD^VP_ NP^VP-B>
+                @VP^S-VBF-v| VBD^VP_
+                  VBD^VP
+                    played
+                NP^VP-B
+                  NN^NP
+                    golf
+              PP^VP
+                @NodeSet-1279440020
+                  @PP^VP| IN^PP_
+                    IN^PP
+                      with
+                  NP^PP-B
+                    NNS^NP
+                      matthews
+        .^S
+          .
+  .$$.
+    .$.-8
+ROOT
+  S^ROOT-v
+    @NodeSet--474702572
+      NP^S-B
+        @NodeSet--344087475
+          NN^NP
+            mr
+          @NP^S-B| NN^NP_
+            NN^NP
+              rowland
+      @S^ROOT-v| VP^S-VBF-v_ .^S>
+        @S^ROOT-v| VP^S-VBF-v_
+          VP^S-VBF-v
+            @NodeSet-610143252
+              @VP^S-VBF-v| VBD^VP_
+                VBD^VP
+                  played
+              NP^VP-R
+                @NodeSet-1958853033
+                  @NP^VP-R| NP^NP-B_
+                    NP^NP-B
+                      NN^NP
+                        golf
+                  PP^NP
+                    @NodeSet-170115473
+                      @PP^NP| IN^PP-N_
+                        IN^PP-N
+                          with
+                      NP^PP-B
+                        NNS^NP
+                          matthews
+        .^S
+          .
+  .$$.
+    .$.-8
+#7 [north, shore, created, affiliations, with, college, .]
+ROOT
+  S^ROOT-v
+    @NodeSet--474702572
+      NP^S-B
+        @NodeSet--344087475
+          NN^NP
+            north
+          @NP^S-B| NN^NP_
+            NN^NP
+              shore
+      @S^ROOT-v| VP^S-VBF-v_ .^S>
+        @S^ROOT-v| VP^S-VBF-v_
+          VP^S-VBF-v
+            @NodeSet-610143252
+              @VP^S-VBF-v| VBD^VP_ NP^VP-B>
+                @VP^S-VBF-v| VBD^VP_
+                  VBD^VP
+                    created
+                NP^VP-B
+                  NNS^NP
+                    affiliations
+              PP^VP
+                @NodeSet-1279440020
+                  @PP^VP| IN^PP_
+                    IN^PP
+                      with
+                  NP^PP-B
+                    NN^NP
+                      college
+        .^S
+          .
+  .$$.
+    .$.-8
+ROOT
+  S^ROOT-v
+    @NodeSet--474702572
+      NP^S-B
+        @NodeSet--344087475
+          NN^NP
+            north
+          @NP^S-B| NN^NP_
+            NN^NP
+              shore
+      @S^ROOT-v| VP^S-VBF-v_ .^S>
+        @S^ROOT-v| VP^S-VBF-v_
+          VP^S-VBF-v
+            @NodeSet-610143252
+              @VP^S-VBF-v| VBD^VP_
+                VBD^VP
+                  created
+              NP^VP-R
+                @NodeSet-1958853033
+                  @NP^VP-R| NP^NP-B_
+                    NP^NP-B
+                      NNS^NP
+                        affiliations
+                  PP^NP
+                    @NodeSet-170115473
+                      @PP^NP| IN^PP-N_
+                        IN^PP-N
+                          with
+                      NP^PP-B
+                        NN^NP
+                          college
+        .^S
+          .
+  .$$.
+    .$.-8
+#8 [new, york, city, police, charged, mason, with, possession, .]
+ROOT
+  S^ROOT-v
+    @NodeSet--474702572
+      NP^S-B
+        @NodeSet--344087475
+          JJ^NP
+            new
+          @NP^S-B| NNS^NP_ NN^NP< NNP^NP<
+            NNP^NP
+              york
+            @NP^S-B| NNS^NP_ NN^NP<
+              NN^NP
+                city
+              @NP^S-B| NNS^NP_
+                NNS^NP
+                  police
+      @S^ROOT-v| VP^S-VBF-v_ .^S>
+        @S^ROOT-v| VP^S-VBF-v_
+          VP^S-VBF-v
+            @NodeSet-610143252
+              @VP^S-VBF-v| VBD^VP_ NP^VP-B>
+                @VP^S-VBF-v| VBD^VP_
+                  VBD^VP
+                    charged
+                NP^VP-B
+                  NN^NP
+                    mason
+              PP^VP
+                @NodeSet-1279440020
+                  @PP^VP| IN^PP_
+                    IN^PP
+                      with
+                  NP^PP-B
+                    NN^NP
+                      possession
+        .^S
+          .
+  .$$.
+    .$.-10
+ROOT
+  S^ROOT-v
+    @NodeSet--474702572
+      NP^S-B
+        @NodeSet--344087475
+          JJ^NP
+            new
+          @NP^S-B| NNS^NP_ NN^NP< NNP^NP<
+            NNP^NP
+              york
+            @NP^S-B| NNS^NP_ NN^NP<
+              NN^NP
+                city
+              @NP^S-B| NNS^NP_
+                NNS^NP
+                  police
+      @S^ROOT-v| VP^S-VBF-v_ .^S>
+        @S^ROOT-v| VP^S-VBF-v_
+          VP^S-VBF-v
+            @NodeSet-610143252
+              @VP^S-VBF-v| VBD^VP_
+                VBD^VP
+                  charged
+              NP^VP-R
+                @NodeSet-1958853033
+                  @NP^VP-R| NP^NP-B_
+                    NP^NP-B
+                      NN^NP
+                        mason
+                  PP^NP
+                    @NodeSet-170115473
+                      @PP^NP| IN^PP-N_
+                        IN^PP-N
+                          with
+                      NP^PP-B
+                        NN^NP
+                          possession
+        .^S
+          .
+  .$$.
+    .$.-10
+#9 [badgers, won, games, with, goals, .]
+ROOT
+  S^ROOT-v
+    @NodeSet--474702572
+      NP^S-B
+        NNS^NP
+          badgers
+      @S^ROOT-v| VP^S-VBF-v_ .^S>
+        @S^ROOT-v| VP^S-VBF-v_
+          VP^S-VBF-v
+            @NodeSet-610143252
+              @VP^S-VBF-v| VBD^VP_ NP^VP-B>
+                @VP^S-VBF-v| VBD^VP_
+                  VBD^VP
+                    won
+                NP^VP-B
+                  NNS^NP
+                    games
+              PP^VP
+                @NodeSet-1279440020
+                  @PP^VP| IN^PP_
+                    IN^PP
+                      with
+                  NP^PP-B
+                    NNS^NP
+                      goals
+        .^S
+          .
+  .$$.
+    .$.-7
+ROOT
+  S^ROOT-v
+    @NodeSet--474702572
+      NP^S-B
+        NNS^NP
+          badgers
+      @S^ROOT-v| VP^S-VBF-v_ .^S>
+        @S^ROOT-v| VP^S-VBF-v_
+          VP^S-VBF-v
+            @NodeSet-610143252
+              @VP^S-VBF-v| VBD^VP_
+                VBD^VP
+                  won
+              NP^VP-R
+                @NodeSet-1958853033
+                  @NP^VP-R| NP^NP-B_
+                    NP^NP-B
+                      NNS^NP
+                        games
+                  PP^NP
+                    @NodeSet-170115473
+                      @PP^NP| IN^PP-N_
+                        IN^PP-N
+                          with
+                      NP^PP-B
+                        NNS^NP
+                          goals
+        .^S
+          .
+  .$$.
+    .$.-7
+#10 [vocal, ability, evoked, comparison, with, evans, .]
+ROOT
+  S^ROOT-v
+    @NodeSet--474702572
+      NP^S-B
+        @NodeSet--344087475
+          JJ^NP
+            vocal
+          @NP^S-B| NN^NP_
+            NN^NP
+              ability
+      @S^ROOT-v| VP^S-VBF-v_ .^S>
+        @S^ROOT-v| VP^S-VBF-v_
+          VP^S-VBF-v
+            @NodeSet-610143252
+              @VP^S-VBF-v| VBD^VP_ NP^VP-B>
+                @VP^S-VBF-v| VBD^VP_
+                  VBD^VP
+                    evoked
+                NP^VP-B
+                  NN^NP
+                    comparison
+              PP^VP
+                @NodeSet-1279440020
+                  @PP^VP| IN^PP_
+                    IN^PP
+                      with
+                  NP^PP-B
+                    NNS^NP
+                      evans
+        .^S
+          .
+  .$$.
+    .$.-8
+ROOT
+  S^ROOT-v
+    @NodeSet--474702572
+      NP^S-B
+        @NodeSet--344087475
+          JJ^NP
+            vocal
+          @NP^S-B| NN^NP_
+            NN^NP
+              ability
+      @S^ROOT-v| VP^S-VBF-v_ .^S>
+        @S^ROOT-v| VP^S-VBF-v_
+          VP^S-VBF-v
+            @NodeSet-610143252
+              @VP^S-VBF-v| VBD^VP_
+                VBD^VP
+                  evoked
+              NP^VP-R
+                @NodeSet-1958853033
+                  @NP^VP-R| NP^NP-B_
+                    NP^NP-B
+                      NN^NP
+                        comparison
+                  PP^NP
+                    @NodeSet-170115473
+                      @PP^NP| IN^PP-N_
+                        IN^PP-N
+                          with
+                      NP^PP-B
+                        NNS^NP
+                          evans
+        .^S
+          .
+  .$$.
+    .$.-8
+#11 [agent, attended, meeting, with, tranter, .]
+ROOT
+  S^ROOT-v
+    @NodeSet--474702572
+      NP^S-B
+        NN^NP
+          agent
+      @S^ROOT-v| VP^S-VBF-v_ .^S>
+        @S^ROOT-v| VP^S-VBF-v_
+          VP^S-VBF-v
+            @NodeSet-610143252
+              @VP^S-VBF-v| VBD^VP_ NP^VP-B>
+                @VP^S-VBF-v| VBD^VP_
+                  VBD^VP
+                    attended
+                NP^VP-B
+                  NN^NP
+                    meeting
+              PP^VP
+                @NodeSet-1279440020
+                  @PP^VP| IN^PP_
+                    IN^PP
+                      with
+                  NP^PP-B
+                    NN^NP
+                      tranter
+        .^S
+          .
+  .$$.
+    .$.-7
+ROOT
+  S^ROOT-v
+    @NodeSet--474702572
+      NP^S-B
+        NN^NP
+          agent
+      @S^ROOT-v| VP^S-VBF-v_ .^S>
+        @S^ROOT-v| VP^S-VBF-v_
+          VP^S-VBF-v
+            @NodeSet-610143252
+              @VP^S-VBF-v| VBD^VP_
+                VBD^VP
+                  attended
+              NP^VP-R
+                @NodeSet-1958853033
+                  @NP^VP-R| NP^NP-B_
+                    NP^NP-B
+                      NN^NP
+                        meeting
+                  PP^NP
+                    @NodeSet-170115473
+                      @PP^NP| IN^PP-N_
+                        IN^PP-N
+                          with
+                      NP^PP-B
+                        NN^NP
+                          tranter
+        .^S
+          .
+  .$$.
+    .$.-7
+#12 [forbes, signed, contract, with, league, .]
+ROOT
+  S^ROOT-v
+    @NodeSet--474702572
+      NP^S-B
+        NNS^NP
+          forbes
+      @S^ROOT-v| VP^S-VBF-v_ .^S>
+        @S^ROOT-v| VP^S-VBF-v_
+          VP^S-VBF-v
+            @NodeSet-610143252
+              @VP^S-VBF-v| VBD^VP_ NP^VP-B>
+                @VP^S-VBF-v| VBD^VP_
+                  VBD^VP
+                    signed
+                NP^VP-B
+                  NN^NP
+                    contract
+              PP^VP
+                @NodeSet-1279440020
+                  @PP^VP| IN^PP_
+                    IN^PP
+                      with
+                  NP^PP-B
+                    NN^NP
+                      league
+        .^S
+          .
+  .$$.
+    .$.-7
+ROOT
+  S^ROOT-v
+    @NodeSet--474702572
+      NP^S-B
+        NNS^NP
+          forbes
+      @S^ROOT-v| VP^S-VBF-v_ .^S>
+        @S^ROOT-v| VP^S-VBF-v_
+          VP^S-VBF-v
+            @NodeSet-610143252
+              @VP^S-VBF-v| VBD^VP_
+                VBD^VP
+                  signed
+              NP^VP-R
+                @NodeSet-1958853033
+                  @NP^VP-R| NP^NP-B_
+                    NP^NP-B
+                      NN^NP
+                        contract
+                  PP^NP
+                    @NodeSet-170115473
+                      @PP^NP| IN^PP-N_
+                        IN^PP-N
+                          with
+                      NP^PP-B
+                        NN^NP
+                          league
+        .^S
+          .
+  .$$.
+    .$.-7
+#13 [ksol, swapped, letters, with, kemr, .]
+ROOT
+  S^ROOT-v
+    @NodeSet--474702572
+      NP^S-B
+        NN^NP
+          ksol
+      @S^ROOT-v| VP^S-VBF-v_ .^S>
+        @S^ROOT-v| VP^S-VBF-v_
+          VP^S-VBF-v
+            @NodeSet-610143252
+              @VP^S-VBF-v| VBD^VP_ NP^VP-B>
+                @VP^S-VBF-v| VBD^VP_
+                  VBD^VP
+                    swapped
+                NP^VP-B
+                  NNS^NP
+                    letters
+              PP^VP
+                @NodeSet-1279440020
+                  @PP^VP| IN^PP_
+                    IN^PP
+                      with
+                  NP^PP-B
+                    NN^NP
+                      kemr
+        .^S
+          .
+  .$$.
+    .$.-7
+ROOT
+  S^ROOT-v
+    @NodeSet--474702572
+      NP^S-B
+        NNP^NP
+          ksol
+      @S^ROOT-v| VP^S-VBF-v_ .^S>
+        @S^ROOT-v| VP^S-VBF-v_
+          VP^S-VBF-v
+            @NodeSet-610143252
+              @VP^S-VBF-v| VBD^VP_ NP^VP-B>
+                @VP^S-VBF-v| VBD^VP_
+                  VBD^VP
+                    swapped
+                NP^VP-B
+                  NNS^NP
+                    letters
+              PP^VP
+                @NodeSet-1279440020
+                  @PP^VP| IN^PP_
+                    IN^PP
+                      with
+                  NP^PP-B
+                    NN^NP
+                      kemr
+        .^S
+          .
+  .$$.
+    .$.-7
+#14 [cedric, sharpe, formed, quartet, with, beckwith, .]
+ROOT
+  S^ROOT-v
+    @NodeSet--474702572
+      NP^S-B
+        @NodeSet--344087475
+          NNP^NP
+            cedric
+          @NP^S-B| NNP^NP_
+            NNP^NP
+              sharpe
+      @S^ROOT-v| VP^S-VBF-v_ .^S>
+        @S^ROOT-v| VP^S-VBF-v_
+          VP^S-VBF-v
+            @NodeSet-610143252
+              @VP^S-VBF-v| VBD^VP_ NP^VP-B>
+                @VP^S-VBF-v| VBD^VP_
+                  VBD^VP
+                    formed
+                NP^VP-B
+                  NN^NP
+                    quartet
+              PP^VP
+                @NodeSet-1279440020
+                  @PP^VP| IN^PP_
+                    IN^PP
+                      with
+                  NP^PP-B
+                    NN^NP
+                      beckwith
+        .^S
+          .
+  .$$.
+    .$.-8
+ROOT
+  S^ROOT-v
+    @NodeSet--474702572
+      NP^S-B
+        @NodeSet--344087475
+          JJ^NP
+            cedric
+          @NP^S-B| NNS^NP_
+            NNS^NP
+              sharpe
+      @S^ROOT-v| VP^S-VBF-v_ .^S>
+        @S^ROOT-v| VP^S-VBF-v_
+          VP^S-VBF-v
+            @NodeSet-610143252
+              @VP^S-VBF-v| VBD^VP_ NP^VP-B>
+                @VP^S-VBF-v| VBD^VP_
+                  VBD^VP
+                    formed
+                NP^VP-B
+                  NN^NP
+                    quartet
+              PP^VP
+                @NodeSet-1279440020
+                  @PP^VP| IN^PP_
+                    IN^PP
+                      with
+                  NP^PP-B
+                    NN^NP
+                      beckwith
+        .^S
+          .
+  .$$.
+    .$.-8
+#15 [davis, issued, statement, with, delay, .]
+ROOT
+  S^ROOT-v
+    @NodeSet--474702572
+      NP^S-B
+        NNS^NP
+          davis
+      @S^ROOT-v| VP^S-VBF-v_ .^S>
+        @S^ROOT-v| VP^S-VBF-v_
+          VP^S-VBF-v
+            @NodeSet-610143252
+              @VP^S-VBF-v| VBD^VP_ NP^VP-B>
+                @VP^S-VBF-v| VBD^VP_
+                  VBD^VP
+                    issued
+                NP^VP-B
+                  NN^NP
+                    statement
+              PP^VP
+                @NodeSet-1279440020
+                  @PP^VP| IN^PP_
+                    IN^PP
+                      with
+                  NP^PP-B
+                    NN^NP
+                      delay
+        .^S
+          .
+  .$$.
+    .$.-7
+ROOT
+  S^ROOT-v
+    @NodeSet--474702572
+      NP^S-B
+        NNS^NP
+          davis
+      @S^ROOT-v| VP^S-VBF-v_ .^S>
+        @S^ROOT-v| VP^S-VBF-v_
+          VP^S-VBF-v
+            @NodeSet-610143252
+              @VP^S-VBF-v| VBD^VP_
+                VBD^VP
+                  issued
+              NP^VP-R
+                @NodeSet-1958853033
+                  @NP^VP-R| NP^NP-B_
+                    NP^NP-B
+                      NN^NP
+                        statement
+                  PP^NP
+                    @NodeSet-170115473
+                      @PP^NP| IN^PP-N_
+                        IN^PP-N
+                          with
+                      NP^PP-B
+                        NN^NP
+                          delay
+        .^S
+          .
+  .$$.
+    .$.-7
+#16 [protesters, attacked, forces, with, bombs, .]
+ROOT
+  S^ROOT-v
+    @NodeSet--474702572
+      NP^S-B
+        NNS^NP
+          protesters
+      @S^ROOT-v| VP^S-VBF-v_ .^S>
+        @S^ROOT-v| VP^S-VBF-v_
+          VP^S-VBF-v
+            @NodeSet-610143252
+              @VP^S-VBF-v| VBD^VP_ NP^VP-B>
+                @VP^S-VBF-v| VBD^VP_
+                  VBD^VP
+                    attacked
+                NP^VP-B
+                  NNS^NP
+                    forces
+              PP^VP
+                @NodeSet-1279440020
+                  @PP^VP| IN^PP_
+                    IN^PP
+                      with
+                  NP^PP-B
+                    NNS^NP
+                      bombs
+        .^S
+          .
+  .$$.
+    .$.-7
+ROOT
+  S^ROOT-v
+    @NodeSet--474702572
+      NP^S-B
+        NNS^NP
+          protesters
+      @S^ROOT-v| VP^S-VBF-v_ .^S>
+        @S^ROOT-v| VP^S-VBF-v_
+          VP^S-VBF-v
+            @NodeSet-610143252
+              @VP^S-VBF-v| VBD^VP_
+                VBD^VP
+                  attacked
+              NP^VP-R
+                @NodeSet-1958853033
+                  @NP^VP-R| NP^NP-B_
+                    NP^NP-B
+                      NNS^NP
+                        forces
+                  PP^NP
+                    @NodeSet-170115473
+                      @PP^NP| IN^PP-N_
+                        IN^PP-N
+                          with
+                      NP^PP-B
+                        NNS^NP
+                          bombs
+        .^S
+          .
+  .$$.
+    .$.-7
+#17 [buzorgi, signed, contract, with, haifa, .]
+ROOT
+  S^ROOT-v
+    @NodeSet--474702572
+      NP^S-B
+        NNS^NP
+          buzorgi
+      @S^ROOT-v| VP^S-VBF-v_ .^S>
+        @S^ROOT-v| VP^S-VBF-v_
+          VP^S-VBF-v
+            @NodeSet-610143252
+              @VP^S-VBF-v| VBD^VP_ NP^VP-B>
+                @VP^S-VBF-v| VBD^VP_
+                  VBD^VP
+                    signed
+                NP^VP-B
+                  NN^NP
+                    contract
+              PP^VP
+                @NodeSet-1279440020
+                  @PP^VP| IN^PP_
+                    IN^PP
+                      with
+                  NP^PP-B
+                    NN^NP
+                      haifa
+        .^S
+          .
+  .$$.
+    .$.-7
+ROOT
+  S^ROOT-v
+    @NodeSet--474702572
+      NP^S-B
+        NNS^NP
+          buzorgi
+      @S^ROOT-v| VP^S-VBF-v_ .^S>
+        @S^ROOT-v| VP^S-VBF-v_
+          VP^S-VBF-v
+            @NodeSet-610143252
+              @VP^S-VBF-v| VBD^VP_
+                VBD^VP
+                  signed
+              NP^VP-R
+                @NodeSet-1958853033
+                  @NP^VP-R| NP^NP-B_
+                    NP^NP-B
+                      NN^NP
+                        contract
+                  PP^NP
+                    @NodeSet-170115473
+                      @PP^NP| IN^PP-N_
+                        IN^PP-N
+                          with
+                      NP^PP-B
+                        NN^NP
+                          haifa
+        .^S
+          .
+  .$$.
+    .$.-7
+#18 [workman, replaced, mcintosh, with, evans, .]
+ROOT
+  S^ROOT-v
+    @NodeSet--474702572
+      NP^S-B
+        NN^NP
+          workman
+      @S^ROOT-v| VP^S-VBF-v_ .^S>
+        @S^ROOT-v| VP^S-VBF-v_
+          VP^S-VBF-v
+            @NodeSet-610143252
+              @VP^S-VBF-v| VBD^VP_ NP^VP-B>
+                @VP^S-VBF-v| VBD^VP_
+                  VBD^VP
+                    replaced
+                NP^VP-B
+                  NN^NP
+                    mcintosh
+              PP^VP
+                @NodeSet-1279440020
+                  @PP^VP| IN^PP_
+                    IN^PP
+                      with
+                  NP^PP-B
+                    NNS^NP
+                      evans
+        .^S
+          .
+  .$$.
+    .$.-7
+ROOT
+  S^ROOT-v
+    @NodeSet--474702572
+      NP^S-B
+        NN^NP
+          workman
+      @S^ROOT-v| VP^S-VBF-v_ .^S>
+        @S^ROOT-v| VP^S-VBF-v_
+          VP^S-VBF-v
+            @NodeSet-610143252
+              @VP^S-VBF-v| VBD^VP_
+                VBD^VP
+                  replaced
+              NP^VP-R
+                @NodeSet-1958853033
+                  @NP^VP-R| NP^NP-B_
+                    NP^NP-B
+                      NN^NP
+                        mcintosh
+                  PP^NP
+                    @NodeSet-170115473
+                      @PP^NP| IN^PP-N_
+                        IN^PP-N
+                          with
+                      NP^PP-B
+                        NNS^NP
+                          evans
+        .^S
+          .
+  .$$.
+    .$.-7
+#19 [wabdullah, bosnevire, abdullah, bosnevi, studied, biology, with, scholars, .]
+ROOT
+  S^ROOT-v
+    @NodeSet--474702572
+      NP^S-B
+        @NodeSet--344087475
+          JJ^NP
+            wabdullah
+          @NP^S-B| NNS^NP_ NN^NP< JJ^NP<
+            JJ^NP
+              bosnevire
+            @NP^S-B| NNS^NP_ NN^NP<
+              NN^NP
+                abdullah
+              @NP^S-B| NNS^NP_
+                NNS^NP
+                  bosnevi
+      @S^ROOT-v| VP^S-VBF-v_ .^S>
+        @S^ROOT-v| VP^S-VBF-v_
+          VP^S-VBF-v
+            @NodeSet-610143252
+              @VP^S-VBF-v| VBD^VP_ NP^VP-B>
+                @VP^S-VBF-v| VBD^VP_
+                  VBD^VP
+                    studied
+                NP^VP-B
+                  NN^NP
+                    biology
+              PP^VP
+                @NodeSet-1279440020
+                  @PP^VP| IN^PP_
+                    IN^PP
+                      with
+                  NP^PP-B
+                    NNS^NP
+                      scholars
+        .^S
+          .
+  .$$.
+    .$.-10
+ROOT
+  S^ROOT-v
+    @NodeSet--474702572
+      NP^S-B
+        @NodeSet--344087475
+          JJ^NP
+            wabdullah
+          @NP^S-B| NNS^NP_ NN^NP< JJ^NP<
+            JJ^NP
+              bosnevire
+            @NP^S-B| NNS^NP_ NN^NP<
+              NN^NP
+                abdullah
+              @NP^S-B| NNS^NP_
+                NNS^NP
+                  bosnevi
+      @S^ROOT-v| VP^S-VBF-v_ .^S>
+        @S^ROOT-v| VP^S-VBF-v_
+          VP^S-VBF-v
+            @NodeSet-610143252
+              @VP^S-VBF-v| VBD^VP_
+                VBD^VP
+                  studied
+              NP^VP-R
+                @NodeSet-1958853033
+                  @NP^VP-R| NP^NP-B_
+                    NP^NP-B
+                      NN^NP
+                        biology
+                  PP^NP
+                    @NodeSet-170115473
+                      @PP^NP| IN^PP-N_
+                        IN^PP-N
+                          with
+                      NP^PP-B
+                        NNS^NP
+                          scholars
+        .^S
+          .
+  .$$.
+    .$.-10
+#20 [reecen, released, album, with, stream, .]
+ROOT
+  S^ROOT-v
+    @NodeSet--474702572
+      NP^S-B
+        NN^NP
+          reecen
+      @S^ROOT-v| VP^S-VBF-v_ .^S>
+        @S^ROOT-v| VP^S-VBF-v_
+          VP^S-VBF-v
+            @NodeSet-610143252
+              @VP^S-VBF-v| VBD^VP_ NP^VP-B>
+                @VP^S-VBF-v| VBD^VP_
+                  VBD^VP
+                    released
+                NP^VP-B
+                  NN^NP
+                    album
+              PP^VP
+                @NodeSet-1279440020
+                  @PP^VP| IN^PP_
+                    IN^PP
+                      with
+                  NP^PP-B
+                    NN^NP
+                      stream
+        .^S
+          .
+  .$$.
+    .$.-7
+ROOT
+  S^ROOT-v
+    @NodeSet--474702572
+      NP^S-B
+        NN^NP
+          reecen
+      @S^ROOT-v| VP^S-VBF-v_ .^S>
+        @S^ROOT-v| VP^S-VBF-v_
+          VP^S-VBF-v
+            @NodeSet-610143252
+              @VP^S-VBF-v| VBD^VP_
+                VBD^VP
+                  released
+              NP^VP-R
+                @NodeSet-1958853033
+                  @NP^VP-R| NP^NP-B_
+                    NP^NP-B
+                      NN^NP
+                        album
+                  PP^NP
+                    @NodeSet-170115473
+                      @PP^NP| IN^PP-N_
+                        IN^PP-N
+                          with
+                      NP^PP-B
+                        NN^NP
+                          stream
+        .^S
+          .
+  .$$.
+    .$.-7
+#21 [delmas, signed, deal, with, delmas, .]
+ROOT
+  S^ROOT-v
+    @NodeSet--474702572
+      NP^S-B
+        NNS^NP
+          delmas
+      @S^ROOT-v| VP^S-VBF-v_ .^S>
+        @S^ROOT-v| VP^S-VBF-v_
+          VP^S-VBF-v
+            @NodeSet-610143252
+              @VP^S-VBF-v| VBD^VP_ NP^VP-B>
+                @VP^S-VBF-v| VBD^VP_
+                  VBD^VP
+                    signed
+                NP^VP-B
+                  NN^NP
+                    deal
+              PP^VP
+                @NodeSet-1279440020
+                  @PP^VP| IN^PP_
+                    IN^PP
+                      with
+                  NP^PP-B
+                    NNS^NP
+                      delmas
+        .^S
+          .
+  .$$.
+    .$.-7
+ROOT
+  S^ROOT-v
+    @NodeSet--474702572
+      NP^S-B
+        NNS^NP
+          delmas
+      @S^ROOT-v| VP^S-VBF-v_ .^S>
+        @S^ROOT-v| VP^S-VBF-v_
+          VP^S-VBF-v
+            @NodeSet-610143252
+              @VP^S-VBF-v| VBD^VP_
+                VBD^VP
+                  signed
+              NP^VP-R
+                @NodeSet-1958853033
+                  @NP^VP-R| NP^NP-B_
+                    NP^NP-B
+                      NN^NP
+                        deal
+                  PP^NP
+                    @NodeSet-170115473
+                      @PP^NP| IN^PP-N_
+                        IN^PP-N
+                          with
+                      NP^PP-B
+                        NNS^NP
+                          delmas
+        .^S
+          .
+  .$$.
+    .$.-7
+#22 [o'brien, arranged, trade, with, bulls, .]
+ROOT
+  S^ROOT-v
+    @NodeSet--474702572
+      NP^S-B
+        NN^NP
+          o'brien
+      @S^ROOT-v| VP^S-VBF-v_ .^S>
+        @S^ROOT-v| VP^S-VBF-v_
+          VP^S-VBF-v
+            @NodeSet-610143252
+              @VP^S-VBF-v| VBD^VP_ NP^VP-B>
+                @VP^S-VBF-v| VBD^VP_
+                  VBD^VP
+                    arranged
+                NP^VP-B
+                  NN^NP
+                    trade
+              PP^VP
+                @NodeSet-1279440020
+                  @PP^VP| IN^PP_
+                    IN^PP
+                      with
+                  NP^PP-B
+                    NNS^NP
+                      bulls
+        .^S
+          .
+  .$$.
+    .$.-7
+ROOT
+  S^ROOT-v
+    @NodeSet--474702572
+      NP^S-B
+        NN^NP
+          o'brien
+      @S^ROOT-v| VP^S-VBF-v_ .^S>
+        @S^ROOT-v| VP^S-VBF-v_
+          VP^S-VBF-v
+            @NodeSet-610143252
+              @VP^S-VBF-v| VBD^VP_
+                VBD^VP
+                  arranged
+              NP^VP-R
+                @NodeSet-1958853033
+                  @NP^VP-R| NP^NP-B_
+                    NP^NP-B
+                      NN^NP
+                        trade
+                  PP^NP
+                    @NodeSet-170115473
+                      @PP^NP| IN^PP-N_
+                        IN^PP-N
+                          with
+                      NP^PP-B
+                        NNS^NP
+                          bulls
+        .^S
+          .
+  .$$.
+    .$.-7
+#23 [clotilde, dusoulier, signed, deal, with, books, .]
+ROOT
+  S^ROOT-v
+    @NodeSet--474702572
+      NP^S-B
+        @NodeSet--344087475
+          JJ^NP
+            clotilde
+          @NP^S-B| NN^NP_
+            NN^NP
+              dusoulier
+      @S^ROOT-v| VP^S-VBF-v_ .^S>
+        @S^ROOT-v| VP^S-VBF-v_
+          VP^S-VBF-v
+            @NodeSet-610143252
+              @VP^S-VBF-v| VBD^VP_ NP^VP-B>
+                @VP^S-VBF-v| VBD^VP_
+                  VBD^VP
+                    signed
+                NP^VP-B
+                  NN^NP
+                    deal
+              PP^VP
+                @NodeSet-1279440020
+                  @PP^VP| IN^PP_
+                    IN^PP
+                      with
+                  NP^PP-B
+                    NNS^NP
+                      books
+        .^S
+          .
+  .$$.
+    .$.-8
+ROOT
+  S^ROOT-v
+    @NodeSet--474702572
+      NP^S-B
+        @NodeSet--344087475
+          NN^NP
+            clotilde
+          @NP^S-B| NN^NP_
+            NN^NP
+              dusoulier
+      @S^ROOT-v| VP^S-VBF-v_ .^S>
+        @S^ROOT-v| VP^S-VBF-v_
+          VP^S-VBF-v
+            @NodeSet-610143252
+              @VP^S-VBF-v| VBD^VP_ NP^VP-B>
+                @VP^S-VBF-v| VBD^VP_
+                  VBD^VP
+                    signed
+                NP^VP-B
+                  NN^NP
+                    deal
+              PP^VP
+                @NodeSet-1279440020
+                  @PP^VP| IN^PP_
+                    IN^PP
+                      with
+                  NP^PP-B
+                    NNS^NP
+                      books
+        .^S
+          .
+  .$$.
+    .$.-8
+#24 [ponting, received, sponsorship, with, sport, .]
+ROOT
+  S^ROOT-v
+    @NodeSet--474702572
+      NP^S-B
+        NN^NP
+          ponting
+      @S^ROOT-v| VP^S-VBF-v_ .^S>
+        @S^ROOT-v| VP^S-VBF-v_
+          VP^S-VBF-v
+            @NodeSet-610143252
+              @VP^S-VBF-v| VBD^VP_ NP^VP-B>
+                @VP^S-VBF-v| VBD^VP_
+                  VBD^VP
+                    received
+                NP^VP-B
+                  NN^NP
+                    sponsorship
+              PP^VP
+                @NodeSet-1279440020
+                  @PP^VP| IN^PP_
+                    IN^PP
+                      with
+                  NP^PP-B
+                    NN^NP
+                      sport
+        .^S
+          .
+  .$$.
+    .$.-7
+ROOT
+  S^ROOT-v
+    @NodeSet--474702572
+      NP^S-B
+        NN^NP
+          ponting
+      @S^ROOT-v| VP^S-VBF-v_ .^S>
+        @S^ROOT-v| VP^S-VBF-v_
+          VP^S-VBF-v
+            @NodeSet-610143252
+              @VP^S-VBF-v| VBD^VP_
+                VBD^VP
+                  received
+              NP^VP-R
+                @NodeSet-1958853033
+                  @NP^VP-R| NP^NP-B_
+                    NP^NP-B
+                      NN^NP
+                        sponsorship
+                  PP^NP
+                    @NodeSet-170115473
+                      @PP^NP| IN^PP-N_
+                        IN^PP-N
+                          with
+                      NP^PP-B
+                        NN^NP
+                          sport
+        .^S
+          .
+  .$$.
+    .$.-7
+#25 [owen, developed, fascination, with, song, .]
+ROOT
+  S^ROOT-v
+    @NodeSet--474702572
+      NP^S-B
+        NN^NP
+          owen
+      @S^ROOT-v| VP^S-VBF-v_ .^S>
+        @S^ROOT-v| VP^S-VBF-v_
+          VP^S-VBF-v
+            @NodeSet-610143252
+              @VP^S-VBF-v| VBD^VP_ NP^VP-B>
+                @VP^S-VBF-v| VBD^VP_
+                  VBD^VP
+                    developed
+                NP^VP-B
+                  NN^NP
+                    fascination
+              PP^VP
+                @NodeSet-1279440020
+                  @PP^VP| IN^PP_
+                    IN^PP
+                      with
+                  NP^PP-B
+                    NN^NP
+                      song
+        .^S
+          .
+  .$$.
+    .$.-7
+ROOT
+  S^ROOT-v
+    @NodeSet--474702572
+      NP^S-B
+        NN^NP
+          owen
+      @S^ROOT-v| VP^S-VBF-v_ .^S>
+        @S^ROOT-v| VP^S-VBF-v_
+          VP^S-VBF-v
+            @NodeSet-610143252
+              @VP^S-VBF-v| VBD^VP_
+                VBD^VP
+                  developed
+              NP^VP-R
+                @NodeSet-1958853033
+                  @NP^VP-R| NP^NP-B_
+                    NP^NP-B
+                      NN^NP
+                        fascination
+                  PP^NP
+                    @NodeSet-170115473
+                      @PP^NP| IN^PP-N_
+                        IN^PP-N
+                          with
+                      NP^PP-B
+                        NN^NP
+                          song
+        .^S
+          .
+  .$$.
+    .$.-7
+#26 [ali, crawford, signed, contract, with, hamilton, .]
+ROOT
+  S^ROOT-v
+    @NodeSet--474702572
+      NP^S-B
+        @NodeSet--344087475
+          NN^NP
+            ali
+          @NP^S-B| NN^NP_
+            NN^NP
+              crawford
+      @S^ROOT-v| VP^S-VBF-v_ .^S>
+        @S^ROOT-v| VP^S-VBF-v_
+          VP^S-VBF-v
+            @NodeSet-610143252
+              @VP^S-VBF-v| VBD^VP_ NP^VP-B>
+                @VP^S-VBF-v| VBD^VP_
+                  VBD^VP
+                    signed
+                NP^VP-B
+                  NN^NP
+                    contract
+              PP^VP
+                @NodeSet-1279440020
+                  @PP^VP| IN^PP_
+                    IN^PP
+                      with
+                  NP^PP-B
+                    NN^NP
+                      hamilton
+        .^S
+          .
+  .$$.
+    .$.-8
+ROOT
+  S^ROOT-v
+    @NodeSet--474702572
+      NP^S-B
+        NN^NP
+          ali
+      @S^ROOT-v| VP^S-VBF-v_ .^S>
+        @S^ROOT-v| VP^S-VBF-v_
+          VP^S-VBF-v
+            @NodeSet-610143252
+              @VP^S-VBF-v| VBD^VP_
+                VBD^VP
+                  crawford
+              NP^VP-R-v
+                @NodeSet-1171934101
+                  @NP^VP-R-v| NP^NP-v-B_
+                    NP^NP-v-B
+                      @NodeSet--642229429
+                        VBN^NP
+                          signed
+                        @NP^NP-v-B| NN^NP_
+                          NN^NP
+                            contract
+                  PP^NP
+                    @NodeSet-170115473
+                      @PP^NP| IN^PP-N_
+                        IN^PP-N
+                          with
+                      NP^PP-B
+                        NN^NP
+                          hamilton
+        .^S
+          .
+  .$$.
+    .$.-8

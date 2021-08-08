@@ -1,0 +1,13 @@
+VP -> VP PP rule indicating PP attachment to VP
+
+coreNLP 3.9.1
+
+"@NodeSet--746840437" -> "@VP^S-VBF-v| VBD^VP_ NP^VP-B>" "PP^VP" 5.0315266
+
+
+coreNLP 4.2.2
+
+"@NodeSet-610143252" -> "@VP^S-VBF-v| VBD^VP_ NP^VP-B>" "PP^VP" 8.031711
+
+
+
